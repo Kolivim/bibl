@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 12 15:17:06 MSK 2023
+jaxb-core-4.0.3-sources.jar>central=
+jaxb-core-4.0.3.jar>central=
+jaxb-core-4.0.3.pom>central=
