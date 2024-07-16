@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 12 15:17:03 MSK 2023
+commons-io-2.13.0-sources.jar>central=
+commons-io-2.13.0.jar>central=
+commons-io-2.13.0.pom>central=
