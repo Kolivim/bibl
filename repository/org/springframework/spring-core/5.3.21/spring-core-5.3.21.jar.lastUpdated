@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jun 12 22:50:29 MSK 2023
+https\://repo.maven.apache.org/maven2/.lastUpdated=1686599429663
+@default-skillbox-gitlab-https\://gitlab.skillbox.ru/api/v4/projects/263574/packages/maven/.lastUpdated=1686599377289
+https\://gitlab.skillbox.ru/api/v4/projects/263574/packages/maven/.error=Could not transfer artifact org.springframework\:spring-core\:jar\:5.3.21 from/to skillbox-gitlab (https\://gitlab.skillbox.ru/api/v4/projects/263574/packages/maven)\: C\:\\Users\\Mi\\.m2\\repository\\org\\springframework\\spring-core\\5.3.21\\spring-core-5.3.21.jar.part.lock (???????? ? ???????)
