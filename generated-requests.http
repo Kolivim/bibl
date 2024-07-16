@@ -1,0 +1,1059 @@
+### POST стэнд NotificationService test: add NotificationDTO type = "USER_BIRTHDAY" and load into method create()
+POST http://82.202.214.42:80/api/v1/notifications/test
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJrb2xpdmltQHlhbmRleC5ydSIsInRva2VuX2lkIjoiNjM0OWI0MzctOWIyNS00YjNlLWFkZjYtNjk5ZjA3MGYwYzhlIiwidXNlcl9pZCI6ImVmOGEzNjk5LWU5NDctNGI4MC05ODY1LWVlM2Y2Y2U0ODkzZiIsInJvbGVzIjpbXSwiaXNzIjoibXlBcHAiLCJyZWZyZXNoX3Rva2VuX2lkIjoiM2U5NGRlMTEtNDY0ZC00Njk0LThlZmQtNjYxZGE4YjhkZGE0IiwiZXhwIjoxNzAwMjU2NDY4LCJpYXQiOjE3MDAyNTI4Njh9.dlzUeuUh5JL4FrYbjkPCDxD3ieDDyNgv8SytswQ706X1n-gHnfq-RsrtAcsoipObCcbUgyIYG53bO71D_BjizqR_75O3FNlg9lJ3idSqr3GRrI-DiAZAIXYWDsbP5v1Xm8bKOIkdFUv7bibauBvgbqB548q9IWOTU4uK0gPUtQ6DNnI4DwZYxygNdWNlWBdKAcD8R98fhoAYgy6edkatDiBwRXHXi_4BQbJMlPIgC4_WZJo9xoeqidnRn--E3FFumcHWWMPCa1Z2rOpJzk3dOfRjowI0I85Wr68Xp9VnseQ2XYUnX9K4wKybhKgvQhpMXPdurN2bDSOHlLFvO3f9Kg
+Content-Type: application/json
+
+{
+  "authorId": "ef8a3699-e947-4b80-9865-ee3f6ce4893f",
+  "receiverId": "4c559924-ffc6-44ae-a05a-e1a4e9014111",
+  "content": "Привет, как дела?",
+  "notificationType": "MESSAGE",
+  "sentTime": "1700252664.081942932"
+}
+
+### POST стэнд NotificationService test: add NotificationDTO type = "USER_BIRTHDAY" and load into method create()
+POST http://82.202.214.42:80/api/v1/notifications/test
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJrb2xpdmltQHlhbmRleC5ydSIsInRva2VuX2lkIjoiNjM0OWI0MzctOWIyNS00YjNlLWFkZjYtNjk5ZjA3MGYwYzhlIiwidXNlcl9pZCI6ImVmOGEzNjk5LWU5NDctNGI4MC05ODY1LWVlM2Y2Y2U0ODkzZiIsInJvbGVzIjpbXSwiaXNzIjoibXlBcHAiLCJyZWZyZXNoX3Rva2VuX2lkIjoiM2U5NGRlMTEtNDY0ZC00Njk0LThlZmQtNjYxZGE4YjhkZGE0IiwiZXhwIjoxNzAwMjU2NDY4LCJpYXQiOjE3MDAyNTI4Njh9.dlzUeuUh5JL4FrYbjkPCDxD3ieDDyNgv8SytswQ706X1n-gHnfq-RsrtAcsoipObCcbUgyIYG53bO71D_BjizqR_75O3FNlg9lJ3idSqr3GRrI-DiAZAIXYWDsbP5v1Xm8bKOIkdFUv7bibauBvgbqB548q9IWOTU4uK0gPUtQ6DNnI4DwZYxygNdWNlWBdKAcD8R98fhoAYgy6edkatDiBwRXHXi_4BQbJMlPIgC4_WZJo9xoeqidnRn--E3FFumcHWWMPCa1Z2rOpJzk3dOfRjowI0I85Wr68Xp9VnseQ2XYUnX9K4wKybhKgvQhpMXPdurN2bDSOHlLFvO3f9Kg
+Content-Type: application/json
+
+{
+  "authorId": "4c559924-ffc6-44ae-a05a-e1a4e9014111",
+  "receiverId": "4c559924-ffc6-44ae-a05a-e1a4e9014111",
+  "content": "Вам на почту отправлена ссылка для восстановления пароля",
+  "notificationType": "SEND_EMAIL_MESSAGE",
+  "sentTime": "1700252664.081942932"
+}
+
+### POST стэнд NotificationService test: add NotificationDTO type = "USER_BIRTHDAY" and load into method create()
+POST http://82.202.214.42:80/api/v1/notifications/test
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJrb2xpdmltQHlhbmRleC5ydSIsInRva2VuX2lkIjoiNjM0OWI0MzctOWIyNS00YjNlLWFkZjYtNjk5ZjA3MGYwYzhlIiwidXNlcl9pZCI6ImVmOGEzNjk5LWU5NDctNGI4MC05ODY1LWVlM2Y2Y2U0ODkzZiIsInJvbGVzIjpbXSwiaXNzIjoibXlBcHAiLCJyZWZyZXNoX3Rva2VuX2lkIjoiM2U5NGRlMTEtNDY0ZC00Njk0LThlZmQtNjYxZGE4YjhkZGE0IiwiZXhwIjoxNzAwMjU2NDY4LCJpYXQiOjE3MDAyNTI4Njh9.dlzUeuUh5JL4FrYbjkPCDxD3ieDDyNgv8SytswQ706X1n-gHnfq-RsrtAcsoipObCcbUgyIYG53bO71D_BjizqR_75O3FNlg9lJ3idSqr3GRrI-DiAZAIXYWDsbP5v1Xm8bKOIkdFUv7bibauBvgbqB548q9IWOTU4uK0gPUtQ6DNnI4DwZYxygNdWNlWBdKAcD8R98fhoAYgy6edkatDiBwRXHXi_4BQbJMlPIgC4_WZJo9xoeqidnRn--E3FFumcHWWMPCa1Z2rOpJzk3dOfRjowI0I85Wr68Xp9VnseQ2XYUnX9K4wKybhKgvQhpMXPdurN2bDSOHlLFvO3f9Kg
+Content-Type: application/json
+
+{
+  "authorId": "ef8a3699-e947-4b80-9865-ee3f6ce4893f",
+  "receiverId": "4c559924-ffc6-44ae-a05a-e1a4e9014111",
+  "content": "Ваша заявка в друзья подтверждена пользователем",
+  "notificationType": "FRIEND_APPROVE",
+  "sentTime": "1700252664.081942932"
+}
+
+### POST стэнд NotificationService test: add NotificationDTO type = "USER_BIRTHDAY" and load into method create()
+POST http://82.202.214.42:80/api/v1/notifications/test
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJrb2xpdmltQHlhbmRleC5ydSIsInRva2VuX2lkIjoiNjM0OWI0MzctOWIyNS00YjNlLWFkZjYtNjk5ZjA3MGYwYzhlIiwidXNlcl9pZCI6ImVmOGEzNjk5LWU5NDctNGI4MC05ODY1LWVlM2Y2Y2U0ODkzZiIsInJvbGVzIjpbXSwiaXNzIjoibXlBcHAiLCJyZWZyZXNoX3Rva2VuX2lkIjoiM2U5NGRlMTEtNDY0ZC00Njk0LThlZmQtNjYxZGE4YjhkZGE0IiwiZXhwIjoxNzAwMjU2NDY4LCJpYXQiOjE3MDAyNTI4Njh9.dlzUeuUh5JL4FrYbjkPCDxD3ieDDyNgv8SytswQ706X1n-gHnfq-RsrtAcsoipObCcbUgyIYG53bO71D_BjizqR_75O3FNlg9lJ3idSqr3GRrI-DiAZAIXYWDsbP5v1Xm8bKOIkdFUv7bibauBvgbqB548q9IWOTU4uK0gPUtQ6DNnI4DwZYxygNdWNlWBdKAcD8R98fhoAYgy6edkatDiBwRXHXi_4BQbJMlPIgC4_WZJo9xoeqidnRn--E3FFumcHWWMPCa1Z2rOpJzk3dOfRjowI0I85Wr68Xp9VnseQ2XYUnX9K4wKybhKgvQhpMXPdurN2bDSOHlLFvO3f9Kg
+Content-Type: application/json
+
+{
+  "authorId": "4c559924-ffc6-44ae-a05a-e1a4e9014111",
+  "receiverId": "4c559924-ffc6-44ae-a05a-e1a4e9014111",
+  "content": "Поздравлем Вас с Днем Рождения!",
+  "notificationType": "USER_BIRTHDAY",
+  "sentTime": "1700252664.081942932"
+}
+
+### POST стэнд NotificationService test: add NotificationDTO type = "USER_BIRTHDAY" and load into method create()
+POST http://82.202.214.42:80/api/v1/notifications/test
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJrb2xpdmltQHlhbmRleC5ydSIsInRva2VuX2lkIjoiNjM0OWI0MzctOWIyNS00YjNlLWFkZjYtNjk5ZjA3MGYwYzhlIiwidXNlcl9pZCI6ImVmOGEzNjk5LWU5NDctNGI4MC05ODY1LWVlM2Y2Y2U0ODkzZiIsInJvbGVzIjpbXSwiaXNzIjoibXlBcHAiLCJyZWZyZXNoX3Rva2VuX2lkIjoiM2U5NGRlMTEtNDY0ZC00Njk0LThlZmQtNjYxZGE4YjhkZGE0IiwiZXhwIjoxNzAwMjU2NDY4LCJpYXQiOjE3MDAyNTI4Njh9.dlzUeuUh5JL4FrYbjkPCDxD3ieDDyNgv8SytswQ706X1n-gHnfq-RsrtAcsoipObCcbUgyIYG53bO71D_BjizqR_75O3FNlg9lJ3idSqr3GRrI-DiAZAIXYWDsbP5v1Xm8bKOIkdFUv7bibauBvgbqB548q9IWOTU4uK0gPUtQ6DNnI4DwZYxygNdWNlWBdKAcD8R98fhoAYgy6edkatDiBwRXHXi_4BQbJMlPIgC4_WZJo9xoeqidnRn--E3FFumcHWWMPCa1Z2rOpJzk3dOfRjowI0I85Wr68Xp9VnseQ2XYUnX9K4wKybhKgvQhpMXPdurN2bDSOHlLFvO3f9Kg
+Content-Type: application/json
+
+{
+  "authorId": "ef8a3699-e947-4b80-9865-ee3f6ce4893f",
+  "receiverId": "4c559924-ffc6-44ae-a05a-e1a4e9014111",
+  "content": "празднует сегодня ДР",
+  "notificationType": "FRIEND_BIRTHDAY",
+  "sentTime": "1700252664.081942932"
+}
+
+### POST стэнд NotificationService test: add NotificationDTO type = "USER_BIRTHDAY" and load into method create()
+POST http://82.202.214.42:80/api/v1/notifications/test
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJrb2xpdmltQHlhbmRleC5ydSIsInRva2VuX2lkIjoiNjM0OWI0MzctOWIyNS00YjNlLWFkZjYtNjk5ZjA3MGYwYzhlIiwidXNlcl9pZCI6ImVmOGEzNjk5LWU5NDctNGI4MC05ODY1LWVlM2Y2Y2U0ODkzZiIsInJvbGVzIjpbXSwiaXNzIjoibXlBcHAiLCJyZWZyZXNoX3Rva2VuX2lkIjoiM2U5NGRlMTEtNDY0ZC00Njk0LThlZmQtNjYxZGE4YjhkZGE0IiwiZXhwIjoxNzAwMjU2NDY4LCJpYXQiOjE3MDAyNTI4Njh9.dlzUeuUh5JL4FrYbjkPCDxD3ieDDyNgv8SytswQ706X1n-gHnfq-RsrtAcsoipObCcbUgyIYG53bO71D_BjizqR_75O3FNlg9lJ3idSqr3GRrI-DiAZAIXYWDsbP5v1Xm8bKOIkdFUv7bibauBvgbqB548q9IWOTU4uK0gPUtQ6DNnI4DwZYxygNdWNlWBdKAcD8R98fhoAYgy6edkatDiBwRXHXi_4BQbJMlPIgC4_WZJo9xoeqidnRn--E3FFumcHWWMPCa1Z2rOpJzk3dOfRjowI0I85Wr68Xp9VnseQ2XYUnX9K4wKybhKgvQhpMXPdurN2bDSOHlLFvO3f9Kg
+Content-Type: application/json
+
+{
+  "authorId": "ef8a3699-e947-4b80-9865-ee3f6ce4893f",
+  "receiverId": "4c559924-ffc6-44ae-a05a-e1a4e9014111",
+  "content": "Вы заблокированы пользователем",
+  "notificationType": "FRIEND_BLOCKED",
+  "sentTime": "1700252664.081942932"
+}
+
+### POST стэнд NotificationService test: add NotificationDTO type = "USER_BIRTHDAY" and load into method create()
+POST http://82.202.214.42:80/api/v1/notifications/test
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJrb2xpdmltQHlhbmRleC5ydSIsInRva2VuX2lkIjoiNjM0OWI0MzctOWIyNS00YjNlLWFkZjYtNjk5ZjA3MGYwYzhlIiwidXNlcl9pZCI6ImVmOGEzNjk5LWU5NDctNGI4MC05ODY1LWVlM2Y2Y2U0ODkzZiIsInJvbGVzIjpbXSwiaXNzIjoibXlBcHAiLCJyZWZyZXNoX3Rva2VuX2lkIjoiM2U5NGRlMTEtNDY0ZC00Njk0LThlZmQtNjYxZGE4YjhkZGE0IiwiZXhwIjoxNzAwMjU2NDY4LCJpYXQiOjE3MDAyNTI4Njh9.dlzUeuUh5JL4FrYbjkPCDxD3ieDDyNgv8SytswQ706X1n-gHnfq-RsrtAcsoipObCcbUgyIYG53bO71D_BjizqR_75O3FNlg9lJ3idSqr3GRrI-DiAZAIXYWDsbP5v1Xm8bKOIkdFUv7bibauBvgbqB548q9IWOTU4uK0gPUtQ6DNnI4DwZYxygNdWNlWBdKAcD8R98fhoAYgy6edkatDiBwRXHXi_4BQbJMlPIgC4_WZJo9xoeqidnRn--E3FFumcHWWMPCa1Z2rOpJzk3dOfRjowI0I85Wr68Xp9VnseQ2XYUnX9K4wKybhKgvQhpMXPdurN2bDSOHlLFvO3f9Kg
+Content-Type: application/json
+
+{
+  "authorId": "70d31c32-093b-4607-9533-3c03a1c4f342",
+  "receiverId": "ef8a3699-e947-4b80-9865-ee3f6ce4893f",
+  "content": "Вы заблокированы пользователем",
+  "notificationType": "FRIEND_BLOCKED",
+  "sentTime": "1700252664.081942932"
+}
+
+
+### POST стэнд NotificationService test: add NotificationDTO type = "MESSAGE" and load into method create()
+POST http://82.202.214.42:80/api/v1/notifications/test
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJrb2xpdmltQHlhbmRleC5ydSIsInRva2VuX2lkIjoiNjM0OWI0MzctOWIyNS00YjNlLWFkZjYtNjk5ZjA3MGYwYzhlIiwidXNlcl9pZCI6ImVmOGEzNjk5LWU5NDctNGI4MC05ODY1LWVlM2Y2Y2U0ODkzZiIsInJvbGVzIjpbXSwiaXNzIjoibXlBcHAiLCJyZWZyZXNoX3Rva2VuX2lkIjoiM2U5NGRlMTEtNDY0ZC00Njk0LThlZmQtNjYxZGE4YjhkZGE0IiwiZXhwIjoxNzAwMjU2NDY4LCJpYXQiOjE3MDAyNTI4Njh9.dlzUeuUh5JL4FrYbjkPCDxD3ieDDyNgv8SytswQ706X1n-gHnfq-RsrtAcsoipObCcbUgyIYG53bO71D_BjizqR_75O3FNlg9lJ3idSqr3GRrI-DiAZAIXYWDsbP5v1Xm8bKOIkdFUv7bibauBvgbqB548q9IWOTU4uK0gPUtQ6DNnI4DwZYxygNdWNlWBdKAcD8R98fhoAYgy6edkatDiBwRXHXi_4BQbJMlPIgC4_WZJo9xoeqidnRn--E3FFumcHWWMPCa1Z2rOpJzk3dOfRjowI0I85Wr68Xp9VnseQ2XYUnX9K4wKybhKgvQhpMXPdurN2bDSOHlLFvO3f9Kg
+Content-Type: application/json
+
+{
+  "authorId": "70d31c32-093b-4607-9533-3c03a1c4f342",
+  "receiverId": "ef8a3699-e947-4b80-9865-ee3f6ce4893f",
+  "content": "Тестовое сообщение 17 ноября 18ч33м",
+  "notificationType": "MESSAGE",
+  "sentTime": "1700252664.081942932"
+}
+
+<> 2023-11-17T184823.400.json
+<> 2023-11-17T184655.400.json
+<> 2023-11-17T184535.400.json
+<> 2023-11-17T184356.400.json
+
+
+### POST стэнд NotificationService test: add NotificationDTO type = "USER_BIRTHDAY" and load into method create()
+POST http://82.202.214.42:80/api/v1/notifications/test
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJrb2xpdmltQHlhbmRleC5ydSIsInRva2VuX2lkIjoiNjM0OWI0MzctOWIyNS00YjNlLWFkZjYtNjk5ZjA3MGYwYzhlIiwidXNlcl9pZCI6ImVmOGEzNjk5LWU5NDctNGI4MC05ODY1LWVlM2Y2Y2U0ODkzZiIsInJvbGVzIjpbXSwiaXNzIjoibXlBcHAiLCJyZWZyZXNoX3Rva2VuX2lkIjoiM2U5NGRlMTEtNDY0ZC00Njk0LThlZmQtNjYxZGE4YjhkZGE0IiwiZXhwIjoxNzAwMjU2NDY4LCJpYXQiOjE3MDAyNTI4Njh9.dlzUeuUh5JL4FrYbjkPCDxD3ieDDyNgv8SytswQ706X1n-gHnfq-RsrtAcsoipObCcbUgyIYG53bO71D_BjizqR_75O3FNlg9lJ3idSqr3GRrI-DiAZAIXYWDsbP5v1Xm8bKOIkdFUv7bibauBvgbqB548q9IWOTU4uK0gPUtQ6DNnI4DwZYxygNdWNlWBdKAcD8R98fhoAYgy6edkatDiBwRXHXi_4BQbJMlPIgC4_WZJo9xoeqidnRn--E3FFumcHWWMPCa1Z2rOpJzk3dOfRjowI0I85Wr68Xp9VnseQ2XYUnX9K4wKybhKgvQhpMXPdurN2bDSOHlLFvO3f9Kg
+Content-Type: application/json
+
+{
+  "authorId": "ef8a3699-e947-4b80-9865-ee3f6ce4893f",
+  "receiverId": "ef8a3699-e947-4b80-9865-ee3f6ce4893f",
+  "content": "Поздравляем Вас с Днем Рождения!",
+  "notificationType": "USER_BIRTHDAY",
+  "sentTime": "1700252664.081942932"
+}
+
+<> 2023-11-17T175644.400.json
+<> 2023-11-17T175556.400.json
+<> 2023-11-17T175553.400.json
+<> 2023-11-17T175109.400.json
+
+
+
+### POST стэнд для Коли "SEND_EMAIL_MESSAGE" от меня Коле
+### LIKE, POST, POST_COMMENT, COMMENT_COMMENT, MESSAGE, FRIEND_REQUEST, FRIEND_BIRTHDAY, SEND_EMAIL_MESSAGE
+POST http://82.202.214.42:80/api/v1/notifications/test
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJrb2xpdmltQHlhbmRleC5ydSIsInRva2VuX2lkIjoiN2FlMDEwNzktYTJlOS00ZmI5LTlkMTMtZjFkM2Q0NGZmYzUyIiwidXNlcl9pZCI6ImVmOGEzNjk5LWU5NDctNGI4MC05ODY1LWVlM2Y2Y2U0ODkzZiIsInJvbGVzIjpbXSwiaXNzIjoibXlBcHAiLCJyZWZyZXNoX3Rva2VuX2lkIjoiMWRlNDA3YmQtZjg3Mi00NzE5LTlkMDQtM2YxZTcxZjNmYWY5IiwiZXhwIjoxNzAwMjM0Njg3LCJpYXQiOjE3MDAyMzEwODd9.RQB89oRS11KXgAcmmqej1UiBX2jEhiyAnGVJ4osCTNkO2BEOorGp_FfG-FCbD7b84qWkfRulTypwlPM9DaESHFzQQdkCMtJqnIFbTY2FEWUMkoGH6dMBA51pQ2RWvRFIm21bp1Msb_EHoFTrmD9_SBwwjZnw_dmP4mZBcJYYKq3tn4hDziOdpHz-ovWmz9c6pifg8qdpub6jj-E_tN79bHa5tgJLO-oWcmL9JJMrSgwtIMRBRn0OihIX8EbLCg0CQTZ9sX0pUbGdzqKr8zu6pOrXcysYnE6PE0oRym-nHZ0lO5A1nxyxAwhN-9bLMbDuQB1-TpVpBxq-xGpgxpo2HQ
+Content-Type: application/json
+
+{
+  "authorId": "70d31c32-093b-4607-9533-3c03a1c4f342",
+  "content": "",
+  "notificationType": "SEND_EMAIL_MESSAGE",
+  "sentTime": "2023-17-09T16:54:54.06474"
+}
+
+### POST стэнд для Коли "FRIEND_REQUEST" от меня Коле
+### LIKE, POST, POST_COMMENT, COMMENT_COMMENT, MESSAGE, FRIEND_REQUEST, FRIEND_BIRTHDAY, SEND_EMAIL_MESSAGE
+POST http://82.202.214.42:80/api/v1/notifications/test
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJrb2xpdmltQHlhbmRleC5ydSIsInRva2VuX2lkIjoiZjJmNDg2OTQtMmNlNy00Y2FlLWEyODItNTlhYTU0NTNkOTM5IiwidXNlcl9pZCI6ImVmOGEzNjk5LWU5NDctNGI4MC05ODY1LWVlM2Y2Y2U0ODkzZiIsInJvbGVzIjpbXSwiaXNzIjoibXlBcHAiLCJyZWZyZXNoX3Rva2VuX2lkIjoiY2NkNGVjNjMtMGFkNy00Yzg4LWE3ZDQtNGRmZDlhMmE2NTFmIiwiZXhwIjoxNjk4ODQxMTU0LCJpYXQiOjE2OTg4Mzc1NTR9.ciKDFriRQ0yMI3nBUvIVvGrZZ_8Ss0avL1fJAlZ3fnS0kWlfxMDVwsDTRSEX-1OBhGfnkS9l8z_8XKuEPQamZugxMMTr8YIPNqpcaH5aJN9p5pmQRcq_7IARcECct4H0K1iCidwJ7D8NVwwEyyX9UpXONaQX5z8Tez3-beSbuZlK4-0oH2HS6wJNUlRYKqwDo3ilH_Q3ds7Rxo0GbET4wu4tMIKG5uw0oyHRGEFBIS_ozwUEcFFippo6a3WiilxHzXhkcJc77hMJK06XU8JxxE_TMOA0fgTL3PtaXoa0Hw5egPu-YfmxfeBi7hW3masEX3KoKwTrDxx9Mq7nLWNdMw
+Content-Type: application/json
+
+{
+  "authorId": "ef8a3699-e947-4b80-9865-ee3f6ce4893f",
+  "content": "70d31c32-093b-4607-9533-3c03a1c4f342",
+  "notificationType": "FRIEND_REQUEST",
+  "sentTime": "2023-11-01T16:54:54.06474"
+}
+
+### POST стэнд NotificationService test, type = "LIKE":
+### LIKE, POST, POST_COMMENT, COMMENT_COMMENT, MESSAGE, FRIEND_REQUEST, FRIEND_BIRTHDAY, SEND_EMAIL_MESSAGE
+POST http://82.202.214.42:80/api/v1/notifications/test
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJrb2xpdmltQHlhbmRleC5ydSIsInRva2VuX2lkIjoiNmQyMjFiODItYTAyOS00ZmZiLWEwZWYtM2MyNzhlZmNmNTA2IiwidXNlcl9pZCI6ImVmOGEzNjk5LWU5NDctNGI4MC05ODY1LWVlM2Y2Y2U0ODkzZiIsInJvbGVzIjpbXSwiaXNzIjoibXlBcHAiLCJyZWZyZXNoX3Rva2VuX2lkIjoiNWIzNTYzMzMtMjEyZC00MTAyLWE5MDktMWVmOTY3Njk3ZDMxIiwiZXhwIjoxNjk4ODY4NjI3LCJpYXQiOjE2OTg4NjUwMjd9.t6_TjtRRAcZ7EbgotOyXG0OgHyPH50CMvQgPEbzUtVcVVCnelgz_Gc1rHDWxHkw58lJfQ_WTilEIAX-meZqbp_vzBP4L7JwfvFTqmJNJOCDtQYE_eKFQcaI4SSq3DGMWe7JPYTFI246gbCPkw6EPVT5Bn0zd5zCXs5anHpvEJ8Fy-i9f6S61lshxdIO-uv6VUAfDkKyrcge0YSE9cL1kwG88cPyBf6CGNmYt6X0woFQ03YvPQnmbCejvA13YKOuoANtI2H_1uHdbR8Kc0Ibr4Op1GZPgrdVkIzHf77hzNrG35RX3SFFnBEAUK8JBTr6j9vwqlBL2siStVNBwLcSsYw
+Content-Type: application/json
+
+{
+  "authorId": "0bbcf0b7-6832-4b27-b060-23e10588ee0b",
+  "content": "",
+  "notificationType": "LIKE",
+  "sentTime": "2023-11-01T13:01:09.604234"
+}
+
+### POST стэнд NotificationService test, type = "POST_COMMENT":
+### LIKE, POST, POST_COMMENT, COMMENT_COMMENT, MESSAGE, FRIEND_REQUEST, FRIEND_BIRTHDAY, SEND_EMAIL_MESSAGE
+POST http://82.202.214.42:80/api/v1/notifications/test
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJrb2xpdmltQHlhbmRleC5ydSIsInRva2VuX2lkIjoiNmQyMjFiODItYTAyOS00ZmZiLWEwZWYtM2MyNzhlZmNmNTA2IiwidXNlcl9pZCI6ImVmOGEzNjk5LWU5NDctNGI4MC05ODY1LWVlM2Y2Y2U0ODkzZiIsInJvbGVzIjpbXSwiaXNzIjoibXlBcHAiLCJyZWZyZXNoX3Rva2VuX2lkIjoiNWIzNTYzMzMtMjEyZC00MTAyLWE5MDktMWVmOTY3Njk3ZDMxIiwiZXhwIjoxNjk4ODY4NjI3LCJpYXQiOjE2OTg4NjUwMjd9.t6_TjtRRAcZ7EbgotOyXG0OgHyPH50CMvQgPEbzUtVcVVCnelgz_Gc1rHDWxHkw58lJfQ_WTilEIAX-meZqbp_vzBP4L7JwfvFTqmJNJOCDtQYE_eKFQcaI4SSq3DGMWe7JPYTFI246gbCPkw6EPVT5Bn0zd5zCXs5anHpvEJ8Fy-i9f6S61lshxdIO-uv6VUAfDkKyrcge0YSE9cL1kwG88cPyBf6CGNmYt6X0woFQ03YvPQnmbCejvA13YKOuoANtI2H_1uHdbR8Kc0Ibr4Op1GZPgrdVkIzHf77hzNrG35RX3SFFnBEAUK8JBTr6j9vwqlBL2siStVNBwLcSsYw
+Content-Type: application/json
+
+{
+  "authorId": "7c873562-a346-4274-b119-2fb74eb3e5d8",
+  "content": "тест коммент 1ноября 15ч 26м",
+  "notificationType": "POST_COMMENT",
+  "sentTime": "2023-11-01T12:26:26.002436"
+}
+
+
+
+### POST стэнд NotificationService test: add NotificationDTO type = "FRIEND_REQUEST" and load into method create()
+### LIKE, POST, POST_COMMENT, COMMENT_COMMENT, MESSAGE, FRIEND_REQUEST, FRIEND_BIRTHDAY, SEND_EMAIL_MESSAGE
+POST http://82.202.214.42:80/api/v1/notifications/test
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJrb2xpdmltQHlhbmRleC5ydSIsInRva2VuX2lkIjoiNmQyMjFiODItYTAyOS00ZmZiLWEwZWYtM2MyNzhlZmNmNTA2IiwidXNlcl9pZCI6ImVmOGEzNjk5LWU5NDctNGI4MC05ODY1LWVlM2Y2Y2U0ODkzZiIsInJvbGVzIjpbXSwiaXNzIjoibXlBcHAiLCJyZWZyZXNoX3Rva2VuX2lkIjoiNWIzNTYzMzMtMjEyZC00MTAyLWE5MDktMWVmOTY3Njk3ZDMxIiwiZXhwIjoxNjk4ODY4NjI3LCJpYXQiOjE2OTg4NjUwMjd9.t6_TjtRRAcZ7EbgotOyXG0OgHyPH50CMvQgPEbzUtVcVVCnelgz_Gc1rHDWxHkw58lJfQ_WTilEIAX-meZqbp_vzBP4L7JwfvFTqmJNJOCDtQYE_eKFQcaI4SSq3DGMWe7JPYTFI246gbCPkw6EPVT5Bn0zd5zCXs5anHpvEJ8Fy-i9f6S61lshxdIO-uv6VUAfDkKyrcge0YSE9cL1kwG88cPyBf6CGNmYt6X0woFQ03YvPQnmbCejvA13YKOuoANtI2H_1uHdbR8Kc0Ibr4Op1GZPgrdVkIzHf77hzNrG35RX3SFFnBEAUK8JBTr6j9vwqlBL2siStVNBwLcSsYw
+Content-Type: application/json
+
+{
+  "authorId": "99f64870-bab0-4233-bd39-4446d03d568d",
+  "content": "ef8a3699-e947-4b80-9865-ee3f6ce4893f",
+  "notificationType": "FRIEND_REQUEST",
+  "sentTime": "2023-11-01T16:54:54.06474"
+}
+
+### POST стэнд NotificationService test: add NotificationDTO type = "SEND_EMAIL_MESSAGE" and load into method create()
+POST http://82.202.214.42:80/api/v1/notifications/test
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJrb2xpdmltQHlhbmRleC5ydSIsInRva2VuX2lkIjoiN2FlMDEwNzktYTJlOS00ZmI5LTlkMTMtZjFkM2Q0NGZmYzUyIiwidXNlcl9pZCI6ImVmOGEzNjk5LWU5NDctNGI4MC05ODY1LWVlM2Y2Y2U0ODkzZiIsInJvbGVzIjpbXSwiaXNzIjoibXlBcHAiLCJyZWZyZXNoX3Rva2VuX2lkIjoiMWRlNDA3YmQtZjg3Mi00NzE5LTlkMDQtM2YxZTcxZjNmYWY5IiwiZXhwIjoxNzAwMjM0Njg3LCJpYXQiOjE3MDAyMzEwODd9.RQB89oRS11KXgAcmmqej1UiBX2jEhiyAnGVJ4osCTNkO2BEOorGp_FfG-FCbD7b84qWkfRulTypwlPM9DaESHFzQQdkCMtJqnIFbTY2FEWUMkoGH6dMBA51pQ2RWvRFIm21bp1Msb_EHoFTrmD9_SBwwjZnw_dmP4mZBcJYYKq3tn4hDziOdpHz-ovWmz9c6pifg8qdpub6jj-E_tN79bHa5tgJLO-oWcmL9JJMrSgwtIMRBRn0OihIX8EbLCg0CQTZ9sX0pUbGdzqKr8zu6pOrXcysYnE6PE0oRym-nHZ0lO5A1nxyxAwhN-9bLMbDuQB1-TpVpBxq-xGpgxpo2HQ
+Content-Type: application/json
+
+{
+  "authorId": "ef8a3699-e947-4b80-9865-ee3f6ce4893f",
+  "content": "Отправлен емэйл 17 ноября 18ч 17м",
+  "notificationType": "SEND_EMAIL_MESSAGE",
+  "sentTime": "2023-11-17T16:54:54.06474"
+}
+
+### GET: сдвижка offset топика Account Online на 75
+GET http://localhost:8080/api/v1/notifications/kafka/offset
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+
+### POST локальный NotificationService test: add NotificationDTO type = "FRIEND_REQUEST" and load into method create()
+### LIKE, POST, POST_COMMENT, COMMENT_COMMENT, MESSAGE, FRIEND_REQUEST, FRIEND_BIRTHDAY, SEND_EMAIL_MESSAGE
+POST http://localhost:8099/api/v1/notifications/test
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJrb2xpdmltQHlhbmRleC5ydSIsInRva2VuX2lkIjoiZTdhNTY2OGUtYjc3ZC00YTQyLTgxMmEtNmZhNzNhOGQyOGI0IiwidXNlcl9pZCI6ImNmMzE0OGZmLTk4NmUtNDFiYS04OTBkLTk1ZTE3OGNiNmQ4ZiIsInJvbGVzIjpbXSwiaXNzIjoibXlBcHAiLCJyZWZyZXNoX3Rva2VuX2lkIjoiMWMwOGM5NzgtN2NmYy00OGQwLTliN2ItODYzZjY1NDUyNDBlIiwiZXhwIjoxNjk4OTU5NjQ0LCJpYXQiOjE2OTg5NTYwNDR9.fSe0NLMH7hQU_oxHd5YN1nrqEizDfgsoZJK9buBZwkVLA2zm69zfb-A2aTfYGWlkZ3CjikE58w0wa8vUW04w0HyNOaipXIXY4YYnwdjAgo3KpReC5aBcL8DvmC_SDKzRuWBVcVSOuojqTWSZjogRUmGBtHHqaoWA2Jpa4-mrxTxOMAK2JkxIs9PDE-NavRlY80rF5-im2mFVi19mlooCKfV99zPDkeZFXIhucg_6QPHs7k_xMmLQjNQZJx_hTsz2C4TbKLcgWNaODORJVRF-h5VxOz2fKq-HJmhguJOqBnN0D1ZVb0nAucEaRvq-TUlAECx0pvnqyVmqdoOpA25YIw
+Content-Type: application/json
+
+{
+  "authorId": "4026b27b-fa14-48c9-8d30-ac752bb96390",
+  "content": "cf3148ff-986e-41ba-890d-95e178cb6d8f",
+  "notificationType": "FRIEND_REQUEST",
+  "sentTime": ""
+}
+
+<> 2023-11-02T231343.415.json
+<> 2023-11-02T231327.415.json
+<> 2023-11-02T231308.415.json
+<> 2023-11-02T231254.400.html
+<> 2023-11-02T231248.400.html
+
+
+### POST NotificationService test: add NotificationDTO type = "_______" and load into method create()
+#accepted notificationType:[POST, MESSAGE, SEND_EMAIL_MESSAGE, FRIEND_REQUEST, COMMENT_COMMENT, POST_COMMENT, LIKE, FRIEND_BIRTHDAY]
+POST http://localhost:8080/api/v1/notifications/test
+#Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhYUBhYS5ydSIsInRva2VuX2lkIjoiNTYwOGJkZDktNjNmYy00ZjQwLWFhMmUtNzUwMDljMmM2OGVkIiwidXNlcl9pZCI6IjY1OTE4ZjFmLTNlMWUtNDgzMy04ZDg1LTRiODMzODlkNmExMCIsInJvbGVzIjpbXSwiaXNzIjoibXlBcHAiLCJyZWZyZXNoX3Rva2VuX2lkIjoiY2RmY2U0NzUtYTg5YS00ZmEyLTgzZTQtYTUyYjdiMTQ0MzgyIiwiZXhwIjoxNjk4Njc1NDc2LCJpYXQiOjE2OTg2NzQ4NzZ9.XEaziTHWe13y_s5yS9qE9twDbiEIb9Af8EHuoQmS4y4C4dgNosYDnCA900sVU4VDH-h4bf3J-SN9EM_X5OlwngQMj5vMI_DU1fwNKszIMhSzrCjUfhzFq3sY_cpul2Z1qY5lQE_okF-7j4HM4zmlR9_zPVuL8-x2ocBPQbo_0db-HhHCoqUy-h7JuEhsVLp58KexaenoP-WAo8fWlbkPas1PHlfql4D8UQs7vrAK5WG5d-KR6POR2wt2x3jW_CCUDPiqPbfL8Grmebb8Oxc6x-4NpH6TLpgFuIDTZDl1RQJxn2xpu1KJjinHOz-7xOwpBU1Qs5EJS7RbbC3LbX0vWw
+Content-Type: application/json
+
+{
+  "authorId": "65918f1f-3e1e-4833-8d85-4b83389d6a10",
+  "content": "test method add content",
+  "notificationType": "SEND_EMAIL_MESSAGE",
+  "sentTime": "2023-10-09T16:54:54.06474"
+}
+
+<> 2023-10-09T170236.400.json
+<> 2023-10-09T170108.404.json
+
+### POST WebSocket test: add SocketNotificationDTO with EvNotificationDTO
+POST http://localhost:8080/api/v1/websocket/add
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJrb2xpdmltQHlhbmRleC5ydSIsInRva2VuX2lkIjoiZTdhNTY2OGUtYjc3ZC00YTQyLTgxMmEtNmZhNzNhOGQyOGI0IiwidXNlcl9pZCI6ImNmMzE0OGZmLTk4NmUtNDFiYS04OTBkLTk1ZTE3OGNiNmQ4ZiIsInJvbGVzIjpbXSwiaXNzIjoibXlBcHAiLCJyZWZyZXNoX3Rva2VuX2lkIjoiMWMwOGM5NzgtN2NmYy00OGQwLTliN2ItODYzZjY1NDUyNDBlIiwiZXhwIjoxNjk4OTU5NjQ0LCJpYXQiOjE2OTg5NTYwNDR9.fSe0NLMH7hQU_oxHd5YN1nrqEizDfgsoZJK9buBZwkVLA2zm69zfb-A2aTfYGWlkZ3CjikE58w0wa8vUW04w0HyNOaipXIXY4YYnwdjAgo3KpReC5aBcL8DvmC_SDKzRuWBVcVSOuojqTWSZjogRUmGBtHHqaoWA2Jpa4-mrxTxOMAK2JkxIs9PDE-NavRlY80rF5-im2mFVi19mlooCKfV99zPDkeZFXIhucg_6QPHs7k_xMmLQjNQZJx_hTsz2C4TbKLcgWNaODORJVRF-h5VxOz2fKq-HJmhguJOqBnN0D1ZVb0nAucEaRvq-TUlAECx0pvnqyVmqdoOpA25YIw
+Content-Type: application/json
+
+{
+  "data": {
+    "@class":"ru.skillbox.diplom.group40.social.network.api.dto.notification.EvNotificationDTO",
+    "authorId": "65918f1f-3e1e-4833-8d85-4b83389d6a10",
+    "content": "test content POST webSocket add Notification",
+    "notificationType": "POST",
+    "receiverId": "d15d527e-d425-42d8-8016-b3c904d9c5b9"
+  },
+  "recipientId": "d15d527e-d425-42d8-8016-b3c904d9c5b9",
+  "type": "NOTIFICATION"
+}
+
+### POST WebSocket test: add SocketNotificationDTO with MessageDTO - Приложить вместо нижерасположенного универсального JWT требуемый
+POST http://localhost:8080/api/v1/websocket/add
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+#Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJ0ZXN0QHRlc3QucnUiLCJ1c2VyX2lkIjoiYzA1MjEwY2ItN2IwOS00YWJmLWE1MjAtYjRjZDQxMjk0NThjIiwicm9sZXMiOltdLCJpc3MiOiJteUFwcCIsImV4cCI6MTY5NjYxMjQ5MiwiaWF0IjoxNjk2NjEwNjkyfQ.Q6XBnVXu_gSHKzh9OB73yp-oo0PHYsTInesHC8AK0t0LDEhQAYeDWCPDdkILF9BgG71BTjUg6WP_GwE96cdSj704V2M5Ah2v8B0dNxUtOyJOiB1THcEu0GsHTET-wrBxFMulERHY6FhGAxFQNdEg16ABgxgQqzIJLjeO8ux3zMHaBcq0EAZToJX3-6k2aXf5kxzunZXuElIL5-BaOUHw9WzWZK0RpUhGW7aC_STrJ_rQZr282b14umS8LP8uB6KxSn8cWhmymAgFwL8WM-fnLKrfXFJJ15slP1huzvvRltOTQpSOALpn5nsCnsuVgnnKcPWFJlH_IvZD2hh5_L6fWg
+Content-Type: application/json
+
+{
+  "data": {
+    "@class":"ru.skillbox.diplom.group40.social.network.api.dto.dialog.MessageDto",
+    "time": [2023,10,8,19,13,37,991036700],
+    "conversationPartner1": "65918f1f-3e1e-4833-8d85-4b83389d6a10",
+    "conversationPartner2": "d15d527e-d425-42d8-8016-b3c904d9c5b9",
+    "messageText": "test content POST webSocket add Message",
+    "readStatus": "SENT",
+    "dialogId": "5df96082-f67f-42c8-b5e7-11b2c2878134"
+  },
+  "recipientId": "d15d527e-d425-42d8-8016-b3c904d9c5b9",
+  "type": "MESSAGE"
+}
+
+<> 2023-10-08T191917.400.json
+
+### GET WebSocket test: add example SocketDTO with MessageDTO
+GET http://localhost:8080/api/v1/websocket/add
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+#Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ
+
+###
+POST http://localhost:8080/api/v1/notifications/settingsad63f0c8-8432-4161-98f5-e6e27325b962
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+
+###
+POST http://localhost:8080/api/v1/notifications/add
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+Content-Type: application/json
+
+{
+  "authorId": "7df96082-f67f-42c8-b5e7-11b2c2878133",
+  "receiverId": "c05210cb-7b09-4abf-a520-b4cd4129458c",
+  "notificationType": "POST",
+  "content": "test content POST /api/v1/notifications",
+  "status": "SEND"
+}
+
+###
+GET http://localhost:8080/settings
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+
+### GET NotificationDTO
+GET http://localhost:8080/api/v1/notifications/kafka/json/notificationdto
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+
+### GET NotificationDTO withoutdata
+GET http://localhost:8080/api/v1/notifications/kafka/json/notificationdto/withoutdata
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+
+### GET EventNotification
+GET http://localhost:8080/api/v1/notifications/kafka/json/
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+
+### GET String
+GET http://localhost:8080/api/v1/notifications/kafka
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+
+###
+POST http://localhost:8080/api/v1/notifications/kafka
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+Content-Type: application/json
+
+{
+  "message": "test content kafka"
+}
+
+###
+PUT http://localhost:8080/api/v1/geo/load
+
+###
+GET http://localhost:8080/api/v1/notifications/kafka
+
+###
+POST http://localhost:8080/api/v1/notifications
+
+
+
+### POST NotificationService test: add NotificationDTO type = "_______" and load into method create()
+#accepted notificationType:[POST, MESSAGE, SEND_EMAIL_MESSAGE, FRIEND_REQUEST, COMMENT_COMMENT, POST_COMMENT, LIKE, FRIEND_BIRTHDAY]
+POST http://localhost:8080/api/v1/notifications/test
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+#Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJ0ZXN0QHRlc3QucnUiLCJ1c2VyX2lkIjoiYzA1MjEwY2ItN2IwOS00YWJmLWE1MjAtYjRjZDQxMjk0NThjIiwicm9sZXMiOltdLCJpc3MiOiJteUFwcCIsImV4cCI6MTY5NjYxMjQ5MiwiaWF0IjoxNjk2NjEwNjkyfQ.Q6XBnVXu_gSHKzh9OB73yp-oo0PHYsTInesHC8AK0t0LDEhQAYeDWCPDdkILF9BgG71BTjUg6WP_GwE96cdSj704V2M5Ah2v8B0dNxUtOyJOiB1THcEu0GsHTET-wrBxFMulERHY6FhGAxFQNdEg16ABgxgQqzIJLjeO8ux3zMHaBcq0EAZToJX3-6k2aXf5kxzunZXuElIL5-BaOUHw9WzWZK0RpUhGW7aC_STrJ_rQZr282b14umS8LP8uB6KxSn8cWhmymAgFwL8WM-fnLKrfXFJJ15slP1huzvvRltOTQpSOALpn5nsCnsuVgnnKcPWFJlH_IvZD2hh5_L6fWg
+Content-Type: application/json
+
+{
+  "authorId": "65918f1f-3e1e-4833-8d85-4b83389d6a10",
+  "content": "test method add content",
+  "notificationType": "FRIEND_BIRTHDAY",
+  "sentTime": "2023-10-09T16:54:54.06474"
+}
+
+<> 2023-10-09T170236.400.json
+<> 2023-10-09T170108.404.json
+
+### POST WebSocket test: add SocketNotificationDTO with EvNotificationDTO
+POST http://localhost:8080/api/v1/websocket/add
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+Content-Type: application/json
+
+{
+  "data": {
+    "@class":"ru.skillbox.diplom.group40.social.network.api.dto.notification.EvNotificationDTO",
+    "authorId": "65918f1f-3e1e-4833-8d85-4b83389d6a10",
+    "content": "test content POST webSocket add Notification",
+    "notificationType": "POST",
+    "receiverId": "d15d527e-d425-42d8-8016-b3c904d9c5b9"
+  },
+  "recipientId": "d15d527e-d425-42d8-8016-b3c904d9c5b9",
+  "type": "NOTIFICATION"
+}
+
+### POST WebSocket test: add SocketNotificationDTO with MessageDTO - Приложить вместо нижерасположенного универсального JWT требуемый
+POST http://localhost:8080/api/v1/websocket/add
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+#Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJ0ZXN0QHRlc3QucnUiLCJ1c2VyX2lkIjoiYzA1MjEwY2ItN2IwOS00YWJmLWE1MjAtYjRjZDQxMjk0NThjIiwicm9sZXMiOltdLCJpc3MiOiJteUFwcCIsImV4cCI6MTY5NjYxMjQ5MiwiaWF0IjoxNjk2NjEwNjkyfQ.Q6XBnVXu_gSHKzh9OB73yp-oo0PHYsTInesHC8AK0t0LDEhQAYeDWCPDdkILF9BgG71BTjUg6WP_GwE96cdSj704V2M5Ah2v8B0dNxUtOyJOiB1THcEu0GsHTET-wrBxFMulERHY6FhGAxFQNdEg16ABgxgQqzIJLjeO8ux3zMHaBcq0EAZToJX3-6k2aXf5kxzunZXuElIL5-BaOUHw9WzWZK0RpUhGW7aC_STrJ_rQZr282b14umS8LP8uB6KxSn8cWhmymAgFwL8WM-fnLKrfXFJJ15slP1huzvvRltOTQpSOALpn5nsCnsuVgnnKcPWFJlH_IvZD2hh5_L6fWg
+Content-Type: application/json
+
+{
+  "data": {
+    "@class":"ru.skillbox.diplom.group40.social.network.api.dto.dialog.MessageDto",
+    "time": [2023,10,8,19,13,37,991036700],
+    "conversationPartner1": "65918f1f-3e1e-4833-8d85-4b83389d6a10",
+    "conversationPartner2": "d15d527e-d425-42d8-8016-b3c904d9c5b9",
+    "messageText": "test content POST webSocket add Message",
+    "readStatus": "SENT",
+    "dialogId": "5df96082-f67f-42c8-b5e7-11b2c2878134"
+  },
+  "recipientId": "d15d527e-d425-42d8-8016-b3c904d9c5b9",
+  "type": "MESSAGE"
+}
+
+<> 2023-10-08T191917.400.json
+
+### GET WebSocket test: add example SocketDTO with MessageDTO
+GET http://localhost:8080/api/v1/websocket/add
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+#Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ
+
+###
+POST http://localhost:8080/api/v1/notifications/settingsad63f0c8-8432-4161-98f5-e6e27325b962
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+
+###
+POST http://localhost:8080/api/v1/notifications/add
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+Content-Type: application/json
+
+{
+  "authorId": "7df96082-f67f-42c8-b5e7-11b2c2878133",
+  "receiverId": "c05210cb-7b09-4abf-a520-b4cd4129458c",
+  "notificationType": "POST",
+  "content": "test content POST /api/v1/notifications",
+  "status": "SEND"
+}
+
+###
+GET http://localhost:8080/settings
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+
+### GET NotificationDTO
+GET http://localhost:8080/api/v1/notifications/kafka/json/notificationdto
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+
+### GET NotificationDTO withoutdata
+GET http://localhost:8080/api/v1/notifications/kafka/json/notificationdto/withoutdata
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+
+### GET EventNotification
+GET http://localhost:8080/api/v1/notifications/kafka/json/
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+
+### GET String
+GET http://localhost:8080/api/v1/notifications/kafka
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+
+###
+POST http://localhost:8080/api/v1/notifications/kafka
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJteUFwcCIsInN1YiI6InRlc3RfZW1haWwiLCJleHAiOjE3MjU3MjUyMTksInVzZXJfaWQiOiI5OWY2NDg3MC1iYWIwLTQyMzMtYmQzOS00NDQ2ZDAzZDU2OGQiLCJpYXQiOjE2OTQxODkyMTksInJvbGVzIjpbIk1PREVSQVRPUiIsIlVTRVIiXX0.r1h3QNV3ZNCzCMnspzTvrB4OnmOFe8HtMPJkBNktiWOtfrFI5s0_HsNuqBEWV37mxt1pwaclux5le1l4-ZqOVsY4-O46DU0wZjIZ8wWMJZiEz6RJ7drPV-909POSL42jN-r_wBXqv2-YfcXwgXsFd07LDOmNUQLZlhzuoFyAGuciOD3PuEdsb5UkuHz9PNx60STzhnCplvIQGJwQYuNeShIo3Ps2U3bKRRH0ug1TVIvCEt5F6PKDReud9H4k17rQFPz9EjUz7M1WWgPMVglLqFQuZAFYgTpvDeOZs-ApeNyf_Fv3VydJt-K-DvqtkZlV4u9o5MvhmqHPTgpcF910qQ;
+Content-Type: application/json
+
+{
+  "message": "test content kafka"
+}
+
+###
+PUT http://localhost:8080/api/v1/geo/load
+
+###
+GET http://localhost:8080/api/v1/notifications/kafka
+
+###
+POST http://localhost:8080/api/v1/notifications
+
+###
+PUT http://localhost/api/v1/notifications/settings
+
+###
+POST http://localhost:8080/api/v1/calculate/
+Content-Type: application/json
+
+{
+"packages":[
+  {
+    "weight": 15000
+  },
+  {
+    "weight": 145000
+  }
+],
+"currencyCode": "RUB"
+}
+
+
+<> 2023-12-12T001313.200.json
+<> 2023-12-11T154945.400.json
+<> 2023-12-11T154916.400.json
+<> 2023-12-11T154822.400.json
+<> 2023-12-11T154816.400.json
+<> 2023-12-11T152226.200.json
+<> 2023-12-11T152142.400.json
+
+###
+POST http://localhost:8080/api/v1/calculate/
+Content-Type: application/json
+
+{
+  "packages":[
+    {
+      "weight": 1000,
+      "length": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "currencyCode": "RUB"
+}
+
+<> 2023-12-12T003503.200.json
+<> 2023-12-11T155533.200.json
+<> 2023-12-11T155519.400.json
+<> 2023-12-11T155505.200.json
+<> 2023-12-11T155453.200.json
+<> 2023-12-11T155438.200.json
+<> 2023-12-11T155418.200.json
+<> 2023-12-11T155317.200.json
+<> 2023-12-11T155303.200.json
+<> 2023-12-11T155251.200.json
+
+
+###
+POST http://localhost:8080/api/v1/calculate/new
+Content-Type: application/json
+
+{
+  "packages":[
+    {
+      "weight": 1564,
+      "length": 15000,
+      "width": 589,
+      "height": 234
+    }
+  ],
+  "currencyCode": "RUB"
+}
+
+<> 2023-12-12T003650.200.json
+<> 2023-12-12T003638.200.json
+<> 2023-12-12T003617.200.json
+<> 2023-12-12T003554.200.json
+<> 2023-12-12T003529.200.json
+<> 2023-12-12T003521.200.json
+<> 2023-12-12T003503.404.json
+
+###
+POST http://localhost:8080/api/v1/task
+Content-Type: application/json
+
+{
+  "authorId": "f7aa473a-9939-11ee-b9d1-0242ac120002",
+  "executorId": "882e983e-9939-11ee-b9d1-0242ac120002",
+  "title": "Заголовок таски",
+  "description": "Описание таски",
+  "priority": "MEDIUM"
+}
+
+### Логин для qq
+POST http://localhost:8080/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email": "qq@qq.ru",
+  "password": "11112222"
+}
+
+<> 2023-12-22T131235.200.json
+<> 2023-12-22T130524.200.json
+<> 2023-12-22T125203.200.json
+<> 2023-12-19T014637.200.json
+<> 2023-12-18T072900.200.json
+<> 2023-12-17T223820.200.json
+<> 2023-12-17T220720.200.json
+
+###
+POST http://localhost:8080/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email": "xx@xx.ru",
+  "password": "11112222"
+}
+
+<> 2023-12-22T125725.200.json
+<> 2023-12-19T201603.200.json
+<> 2023-12-19T013639.200.json
+<> 2023-12-19T011647.200.json
+<> 2023-12-19T003713.200.json
+<> 2023-12-18T081851.200.json
+<> 2023-12-18T075231.200.json
+<> 2023-12-17T235024.200.json
+<> 2023-12-17T233835.200.json
+<> 2023-12-17T184716.200.json
+
+### Создание задачи
+POST http://localhost:8080/api/v1/task
+Content-Type: application/json
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJxcUBxcS5ydSIsInVzZXJfaWQiOiI1MDAwNzMxNy1iZjNmLTQwMTktYTUzMy1hNDE3ZGM4ZGFkYTkiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAzMjQwNTIzLCJpYXQiOjE3MDMyMzg3MjN9.puYVbgVHQS-YqTvRWdSDEcItf-IRTh-JrDrmXeLM7YEEOuMWD7wzy7Y6vJ2SVCwdh3KvF0tYE0uu7-q1dUQaORezpvroUQIhNrA42noWplDc-DgjwMeg1YscndP1Ah8q5i87rQkkqglqSRW1hlD-ch4M-YU8609o1UGqZjaqJ-siWS_AJfUsFuVE0IZQJJg7UWcbSR48GR09SfCtIQUYc9P1l7Dp3O9CUZutf4RFzz9Y_vnVLu89ZCBWs5gei_4Pq3-lj1Qnto8-iksESz9ZCfvbE06IiKor3ZA5l5JY17yanzb1gfc2xzEKWBJ5v5BKw1inIaJ10w1-R6FoVa_Zbw;
+
+{
+  "executorId": "4044eaea-acd1-48ec-94ed-a2b6122d5c7e",
+  "title": "Заголовок таски",
+  "description": "Описание таски 24",
+  "priority": "LOW"
+}
+
+<> 2023-12-22T125247.200.json
+<> 2023-12-19T014656.200.json
+<> 2023-12-19T013657.200.json
+<> 2023-12-19T011713.200.json
+<> 2023-12-19T003732.200.json
+<> 2023-12-18T075249.200.json
+<> 2023-12-18T072930.200.json
+<> 2023-12-17T235043.200.json
+<> 2023-12-17T233901.200.json
+<> 2023-12-17T223839.200.json
+<> 2023-12-17T220743.200.json
+<> 2023-12-17T184749.200.json
+<> 2023-12-17T184513.200.json
+<> 2023-12-16T133243.500.json
+
+
+### Создание коммента к задаче
+POST http://localhost:8080/api/v1/task/comment
+Content-Type: application/json
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJxcUBxcS5ydSIsInVzZXJfaWQiOiI1MDAwNzMxNy1iZjNmLTQwMTktYTUzMy1hNDE3ZGM4ZGFkYTkiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAzMjQwNTIzLCJpYXQiOjE3MDMyMzg3MjN9.puYVbgVHQS-YqTvRWdSDEcItf-IRTh-JrDrmXeLM7YEEOuMWD7wzy7Y6vJ2SVCwdh3KvF0tYE0uu7-q1dUQaORezpvroUQIhNrA42noWplDc-DgjwMeg1YscndP1Ah8q5i87rQkkqglqSRW1hlD-ch4M-YU8609o1UGqZjaqJ-siWS_AJfUsFuVE0IZQJJg7UWcbSR48GR09SfCtIQUYc9P1l7Dp3O9CUZutf4RFzz9Y_vnVLu89ZCBWs5gei_4Pq3-lj1Qnto8-iksESz9ZCfvbE06IiKor3ZA5l5JY17yanzb1gfc2xzEKWBJ5v5BKw1inIaJ10w1-R6FoVa_Zbw;
+
+{
+  "taskId": "a829d999-39b3-4d40-9375-657531f2e2ee",
+  "commentText": "Коммент текст14"
+}
+
+<> 2023-12-22T125356.200.json
+
+###
+POST http://localhost:8080/api/v1/task/addcomment
+Content-Type: application/json
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJxcUBxcS5ydSIsInVzZXJfaWQiOiI1MDAwNzMxNy1iZjNmLTQwMTktYTUzMy1hNDE3ZGM4ZGFkYTkiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAyNjMxNTMwLCJpYXQiOjE3MDI2Mjk3MzB9.N0CCyX2G9vh0fECPN9QtqEma943VqQlUlw00MHqYBRKDJdXS3l9MvkaSE3ZoSfJNpqBDLGRuHvt_q1k70x_YOB6E8_TKG0rKsMMf0DZFGWZRj78c1HPSrNgKfklYJwp95lQo2XzE5sqSlvEWV1LkjFr830lwi3juIqWdeu3ekhQYH5VFFiooH0m4i0PEgTQH_AYZstHTjs4AjsXUF7mKaG_udPXH0Tjf2HuZwR79nOMfSvxYoNX2n3BW1D8dqxg11yohXVB-oboYMULOxJbhQsAnC3yp10lYqBwIOW4P7rLAILF1sBL64RII7tGp-aFhjQm_sel7ESV5-q43MvJo3g
+
+{
+  "taskId": "4e9318a7-6c6b-445e-99d2-d96a8e59b892",
+  "commentText": "Коммент текст5"
+}
+
+### Коммент для задачи по её id и активному пользователю
+POST http://localhost:8080/api/v1/task/comment
+Content-Type: application/json
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJ4eEB4eC5ydSIsInVzZXJfaWQiOiI0MDQ0ZWFlYS1hY2QxLTQ4ZWMtOTRlZC1hMmI2MTIyZDVjN2UiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAyNzQ2OTYxLCJpYXQiOjE3MDI3NDUxNjF9.EIeubEIjpfk5J9x1OlIECq7DWutyoMTQt9NijXzxFlYtiMUaypMvY5Jmv1Ivx--rtV1q7x8_3k45rgoHBS1FPoBMuWG1XP5Ini2TrJNyzv-6ijuHOoqMyx0kKz9ozQkyLVYV1QQzzRoA6VZKLHXn0RfhTnbwDcCJSmCjk71x0X_Ye4Bjwc1fTdRXcTtmR3UDD7zaZs9lRe6QxLfpIZYj2npEFe3VxZTGuV7xlYi7xBK2nuDOUUlcWRwd2U__hyKdUaoJlDD69jc6JXpGILouKYH0IqQd650zCg85iDeo4tqxyXkQ2oTKV-uFlqEzKBuxUoAl0IAvPb6kjN6McuSkWA;
+
+{
+  "taskId": "3a663245-2647-45e9-8098-f80cd0458f37",
+  "commentText": "Коммент текст10"
+}
+
+### Получение задачи по её id
+GET http://localhost:8080/api/v1/task/5c31949d-9085-46de-a23a-baec03931ddf
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJxcUBxcS5ydSIsInVzZXJfaWQiOiI1MDAwNzMxNy1iZjNmLTQwMTktYTUzMy1hNDE3ZGM4ZGFkYTkiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAzMjQwNTIzLCJpYXQiOjE3MDMyMzg3MjN9.puYVbgVHQS-YqTvRWdSDEcItf-IRTh-JrDrmXeLM7YEEOuMWD7wzy7Y6vJ2SVCwdh3KvF0tYE0uu7-q1dUQaORezpvroUQIhNrA42noWplDc-DgjwMeg1YscndP1Ah8q5i87rQkkqglqSRW1hlD-ch4M-YU8609o1UGqZjaqJ-siWS_AJfUsFuVE0IZQJJg7UWcbSR48GR09SfCtIQUYc9P1l7Dp3O9CUZutf4RFzz9Y_vnVLu89ZCBWs5gei_4Pq3-lj1Qnto8-iksESz9ZCfvbE06IiKor3ZA5l5JY17yanzb1gfc2xzEKWBJ5v5BKw1inIaJ10w1-R6FoVa_Zbw;
+
+### Удаление задачи по её id
+DELETE http://localhost:8080/api/v1/task/4e24421c-da06-4e9b-940f-aaaadb421fd2
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJ4eEB4eC5ydSIsInVzZXJfaWQiOiI0MDQ0ZWFlYS1hY2QxLTQ4ZWMtOTRlZC1hMmI2MTIyZDVjN2UiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAyNzUxMzg5LCJpYXQiOjE3MDI3NDk1ODl9.Sdp9bmWizIyZP1QttQ2XRAZm1DCqSkg3-1a0xUCDr8a-DmKwGq-NaHyobcXm2BPHUTIF2qzU8KtN7dT4b1z09Nbm5W5U90fZnPRcuct2J8fDkmJWYesr9pO6bDUug5ptN-YYtrGiOdte3iY1-yEWvRGxBmZY0l6CxD950_w4zXn3ytqWd43vU8IMJfTEfcKm6tYtbO6FexnOOjhql3gSBwJ1NGkPnQh6G8w_psOuMtMXQjBgqks1DjOYxph3nQee5mjr08tIy-YV3Vc7Cg4hUJGnIYyezbNP4vvzwJIvzJHKOB7HlqQobyHwDXmdo4Zit7Gye1qDXBrqke1Xdgec3w;
+
+###
+GET http://localhost:8080/api/v1/task/comment?page=0&sort=taskId,desc
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJxcUBxcS5ydSIsInVzZXJfaWQiOiI1MDAwNzMxNy1iZjNmLTQwMTktYTUzMy1hNDE3ZGM4ZGFkYTkiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAyNjYyMjUwLCJpYXQiOjE3MDI2NjA0NTB9.odbiI-xyqFtvBkjMIQVj62FoF2IUuHSCGo6zhB9kCcAspugZdGQCrr83VdmwJgjZ02w5cu9CP7ieXfKPznFbltgFZdt4VpqoXC4zw4xQf0_jh0dg-0ZqJrm1cwI3qq04suTb8UKwT5dz8SlO16IzmyyAm4mp3v9yutl_EDeq82PEOzQZQM86C0sF48pgOBA7rHhVwyk2yKx74lfPNRbJ6k2RIaYrtNmeijqx2qi3C34LD0x-VZoPZBJapqKZxXQtPpYhjaSYZPrZWt53OXq1QXSr9w_szvR4AEnqHdgDq2LsHNYON_xiKki6tPK64qss8oIphxQgVYly4gStYxCVKw;
+
+###
+GET http://localhost:8080/api/v1/task/comment/task/4e9318a7-6c6b-445e-99d2-d96a8e59b892?page=0&sort=authorId,desc
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJxcUBxcS5ydSIsInVzZXJfaWQiOiI1MDAwNzMxNy1iZjNmLTQwMTktYTUzMy1hNDE3ZGM4ZGFkYTkiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAyNjYyMjUwLCJpYXQiOjE3MDI2NjA0NTB9.odbiI-xyqFtvBkjMIQVj62FoF2IUuHSCGo6zhB9kCcAspugZdGQCrr83VdmwJgjZ02w5cu9CP7ieXfKPznFbltgFZdt4VpqoXC4zw4xQf0_jh0dg-0ZqJrm1cwI3qq04suTb8UKwT5dz8SlO16IzmyyAm4mp3v9yutl_EDeq82PEOzQZQM86C0sF48pgOBA7rHhVwyk2yKx74lfPNRbJ6k2RIaYrtNmeijqx2qi3C34LD0x-VZoPZBJapqKZxXQtPpYhjaSYZPrZWt53OXq1QXSr9w_szvR4AEnqHdgDq2LsHNYON_xiKki6tPK64qss8oIphxQgVYly4gStYxCVKw;
+
+### Получение коммента по его id
+GET http://localhost:8080/api/v1/task/comment/47753d2d-bd4e-4c6c-82a7-6ad4bee2d630
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJ4eEB4eC5ydSIsInVzZXJfaWQiOiI0MDQ0ZWFlYS1hY2QxLTQ4ZWMtOTRlZC1hMmI2MTIyZDVjN2UiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAzMjQwODQ1LCJpYXQiOjE3MDMyMzkwNDV9.elF1J3qTHlY4VVDJi29ZluwhPd27HcrAvFuHpU_41Pf4RAJwF30czzJ9WsXuTCw3U7_eqx1-3Ynw_BDbvYjFjbPocQwuVPjzpLzUptMEZtQFrzcAWF_R5c71Y5fE1bR_ar1Ze5DulL4dcxib2fwJMN7Ti2xm0LQRxQ6REzBObgFLFnvYPmBCSsAkukyTGuVAEbZS3ZBHgSr74oPg0HLv9NOFLDqjfYtZ4VLXsqlerabmsVrza5-tGM3ZBnxQi8WJSNqIl_6Ou-Rbd2O3P2cptgDnvdL2xu8ahkkJiSGBaPn8HPEqgPpSEgi5sax0xarZLPYojdyoAY0SODhFHokSrw;
+
+<> 2023-12-22T125746.200.json
+<> 2023-12-19T202609.200.json
+
+###
+GET http://localhost:8080/api/v1/task/comment/author/50007317-bf3f-4019-a533-a417dc8dada9?page=0&sort=authorId,desc
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJ4eEB4eC5ydSIsInVzZXJfaWQiOiI0MDQ0ZWFlYS1hY2QxLTQ4ZWMtOTRlZC1hMmI2MTIyZDVjN2UiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAzMDA3OTYzLCJpYXQiOjE3MDMwMDYxNjN9.POEQgAfjHHfQw-ri77tddv6fRoPEK7kTxlUSByFUm9ksGr31vVLE2MmX-ByiwMFuGzqhXKhZPN2qajs7mRaHqZLLjb2wJLfgWsEm4KxpozkgCbessXUOMlq9j9BkYlSfHoP6KjaX41r-bO8djZ8wUdtH9gbBnezAMiWnkclU7egYCo8B6J9Q1h3l1L5uW07vLWUxohgXuFqbj10WYYDC-xAxctCVNHzNzMlCyayE8QHQ38SxkFkGM_JcxpeY4NH5rLsHrZBgD6che6jnVpqqLjf1Gnvzguno2c11RmJgyU2GPJD_MTgbHfQ4v_u3Y1ZiNopglY61Nf5hfPNBEiLZtg;
+
+###
+DELETE http://localhost:8080/api/v1/task/comment/40a2a41e-c229-4187-a5cc-51a73311e61b
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJ4eEB4eC5ydSIsInVzZXJfaWQiOiI0MDQ0ZWFlYS1hY2QxLTQ4ZWMtOTRlZC1hMmI2MTIyZDVjN2UiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAzMDA3OTYzLCJpYXQiOjE3MDMwMDYxNjN9.POEQgAfjHHfQw-ri77tddv6fRoPEK7kTxlUSByFUm9ksGr31vVLE2MmX-ByiwMFuGzqhXKhZPN2qajs7mRaHqZLLjb2wJLfgWsEm4KxpozkgCbessXUOMlq9j9BkYlSfHoP6KjaX41r-bO8djZ8wUdtH9gbBnezAMiWnkclU7egYCo8B6J9Q1h3l1L5uW07vLWUxohgXuFqbj10WYYDC-xAxctCVNHzNzMlCyayE8QHQ38SxkFkGM_JcxpeY4NH5rLsHrZBgD6che6jnVpqqLjf1Gnvzguno2c11RmJgyU2GPJD_MTgbHfQ4v_u3Y1ZiNopglY61Nf5hfPNBEiLZtg;
+
+### Получение всех задач авторизованного пользователя (пользователь - автор)
+GET http://localhost:8080/api/v1/task/author?page=0&sort=title,desc
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJxcUBxcS5ydSIsInVzZXJfaWQiOiI1MDAwNzMxNy1iZjNmLTQwMTktYTUzMy1hNDE3ZGM4ZGFkYTkiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAzMjQxNzU1LCJpYXQiOjE3MDMyMzk5NTV9.LbOk4fzK44bBg_ZgbZQ3CxE6_iz7W2qrD926_Xp0RuKv_qU5q3ZTX9W7nPZ_Pt62hrog_wXGb8OiD7qdCqm5FjxMGCHuWqAZM2Lg_2PNMIP3zf0nm_HA_1m8G5OwmUIAEa5Oq5IDktNiplA154TbipVpH3o6ClAnZfzbyzcLQBLgTAV-xBko-pwY0OqowpYEpDi2lboFGdoQG_UBxffoEXyDcaav8Qy6adjRGAVDCP9AT0qj1PTy0IdPuW6LLLRdr74hbU2F9Y4v7qdQsisieBRo_iSsLH7sN_OOhZh6wQhdPeXithCI7L9cGknBvQ29FehBmIt1vFLhzWylLE2U7w;
+
+<> 2023-12-22T131251.200.json
+<> 2023-12-22T130550.200.json
+<> 2023-12-19T202630.200.json
+<> 2023-12-19T201650.200.json
+<> 2023-12-17T234241.200.json
+<> 2023-12-17T234025.200.json
+
+### Получение задач executor'a с переданным UUID
+GET http://localhost:8080/api/v1/task/executor/4044eaea-acd1-48ec-94ed-a2b6122d5c7e?page=0&sort=title,desc
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJ4eEB4eC5ydSIsInVzZXJfaWQiOiI0MDQ0ZWFlYS1hY2QxLTQ4ZWMtOTRlZC1hMmI2MTIyZDVjN2UiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAyNzI5NTg0LCJpYXQiOjE3MDI3Mjc3ODR9.NhkeX0AAs_DtnXVBILCkAoeAiUEet7ZCRzhkEfM2bwOEod9JmRoHaA1PPwADQA5AMHxa1W58eaP0q251qVLKHUB8ok2MW6oi-lgTzWI_RtHkAzuRCeCplHDB6JBMUsgmnjvRZChS0mRs-Z-xia4ynjE0aNNJcrqXQRXbopqlQAEjfRPqabOEpnLA7Bm3R4BwAjzPkHLBWvA1fd_4_XHtVfvtgqG6IppwwRgn-MfsfRwmI2_Wh6FGk_agu06dg_xzx104JVMx186Q8n7igIeqLz0QiuCQ6SrmxDzOYf17EV6qNLemtVM_z9DnT281174A8QOsrI3-W4o7LClZ2Q2dFQ;
+
+###
+PUT http://localhost:8080/api/v1/task/status
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJ4eEB4eC5ydSIsInVzZXJfaWQiOiI0MDQ0ZWFlYS1hY2QxLTQ4ZWMtOTRlZC1hMmI2MTIyZDVjN2UiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAyNjY5NDc3LCJpYXQiOjE3MDI2Njc2Nzd9.GdbKTeysjHcsodEnzhAH8UZkvy57OwGf6_O9dyFSFOmjp8wdWzmiaH0NKZMe6yoWrgtlHX-q5jilpz3ZyNzMfJ13SX-vfEZe_J8CuyYXl4NRnPHx7K4XNiV7QlgBGmAqMjXo7bCBPIW55SUJEw2fND-UET-3zvhh8kmuDFWfk4RfPg61zhF4HBeEi05eZ6h60hzTcjtavsUxHMmEEFPFe0OnMlSquNbp0Qm0HHoM1SQWZF8L0N0tSQraa6W5zKy2YjjCzZnAD2IvEMfMZmD-TwSb8P4tz6joI01up6WoyRtRSbS6fb3rM5OzlOrg9Pv_9PzbRmLhPt7O-_Dqt19bMg;
+Content-Type: application/json
+
+{
+  "id": "4e9318a7-6c6b-445e-99d2-d96a8e59b892",
+  "status": "COMPLETED"
+}
+
+
+### Обновление статуса задачи
+PUT http://localhost:8080/api/v1/task/status
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJ4eEB4eC5ydSIsInVzZXJfaWQiOiI0MDQ0ZWFlYS1hY2QxLTQ4ZWMtOTRlZC1hMmI2MTIyZDVjN2UiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAyNzUwMjYyLCJpYXQiOjE3MDI3NDg0NjJ9.J7pEL_kFVXzOhHcCrJt5lKV8CrbED_7TgvbXLonILI435qGneNIXuTL6OiSsOeg2HpZHeLNH6kSXCredpNkQd4Efu5DROaRTQRCmj73H0SLjf70FHd59MmJkf1152DOsL2VvYosUsD0Q3S2HsHve2VR0wMcwGJMFVrZ9Cju2Txs9TsYApA5dXoEC4Yjck6pV48Q5_De0WwqVQX_jTXukH4JuohGcfaXUfYHcXTT4dKZ5R4rvSqImY09hpEpWoVRxk-wcQ43gxCJM1r5J64UAM1GpXTsXrdyWi6heSORqLCRgAmHeTiBaiCuy7l17oQhON2pnCkectCkqQETdrJI7EA;
+Content-Type: application/json
+
+{
+  "id": "4e24421c-da06-4e9b-940f-aaaadb421fd2",
+  "status": "PENDING"
+}
+
+
+###
+GET http://localhost:8080/api/v1/task/5c31949d-9085-46de-a23a-baec03931ddf
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJ4eEB4eC5ydSIsInVzZXJfaWQiOiI0MDQ0ZWFlYS1hY2QxLTQ4ZWMtOTRlZC1hMmI2MTIyZDVjN2UiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAyNzQ2OTYxLCJpYXQiOjE3MDI3NDUxNjF9.EIeubEIjpfk5J9x1OlIECq7DWutyoMTQt9NijXzxFlYtiMUaypMvY5Jmv1Ivx--rtV1q7x8_3k45rgoHBS1FPoBMuWG1XP5Ini2TrJNyzv-6ijuHOoqMyx0kKz9ozQkyLVYV1QQzzRoA6VZKLHXn0RfhTnbwDcCJSmCjk71x0X_Ye4Bjwc1fTdRXcTtmR3UDD7zaZs9lRe6QxLfpIZYj2npEFe3VxZTGuV7xlYi7xBK2nuDOUUlcWRwd2U__hyKdUaoJlDD69jc6JXpGILouKYH0IqQd650zCg85iDeo4tqxyXkQ2oTKV-uFlqEzKBuxUoAl0IAvPb6kjN6McuSkWA;
+
+### Обновление исполнителя задачи
+PUT http://localhost:8080/api/v1/task/executor
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJ4eEB4eC5ydSIsInVzZXJfaWQiOiI0MDQ0ZWFlYS1hY2QxLTQ4ZWMtOTRlZC1hMmI2MTIyZDVjN2UiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAyNzQ4NzMxLCJpYXQiOjE3MDI3NDY5MzF9.X472qW1Wr94100n3c8i7mRUp38VB79tfAfS83MPAP4woAJPrqOZXOUHgXgkNDxG6x_goawTWrubGbud8b0tGbqePlFTOBE87mBcMICdg4ebd6N7Utz9l2VrfRvcQiccuwqgUEazumDLyNHOelzXEz6QUrfVruXju9oCUKP1WVdcZ4Yf2CU5wVXmlrnQ1LmQFxGc_oenpiERREko4l4t8k7V1KlfninQyhwy3fXDmRYWBMNh1Oi4WKb4Z9b8oYqfAQRVfInVhA_aXVvT1_Kikjq1g4ugXGPhMLAmZmZtGgmXvAFwW9iA46RsD6g8oK_lOAk0P_KebbVo_gS_1TqszNg;
+Content-Type: application/json
+
+{
+  "id": "ebec5260-3b5e-402f-9cac-433eb33cb7ff",
+  "executorId": "10007317-bf3f-4019-a533-a417dc8dada9"
+}
+
+### Обновление задачи
+PUT http://localhost:8080/api/v1/task
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJxcUBxcS5ydSIsInVzZXJfaWQiOiI1MDAwNzMxNy1iZjNmLTQwMTktYTUzMy1hNDE3ZGM4ZGFkYTkiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAyNzUwNzMyLCJpYXQiOjE3MDI3NDg5MzJ9.kHb_e2kvOiobuGVB2m86zM1IvyUC4ziQFbOo2Lyo4FxCm-Q8a3KxYqndKLSDXz2dy5ojfLxT39a8qH85B_C-Yu4vvTBjuKp2R1FZgGVxxif0ZleEfV7UJolSSxuOtElbl6OVgcbH1Nkcp4V3GNC3aVQTqHXjDYEdbh8MCdObj9nP14eOE1Ubhw25zNHTdPxX_Gm2uhcMVVOL-ApC2ZfTLN_XoMh5vyuap59XcncQa2idxjbYbkwxk0gCXry_tdNr9OLWYBQPjXvU4GBvqZTYdJdJr9XioShg1CS2eOnKdVfJ2axmrqednQAcGOu-0E1UgciS21OMrUKQfyD4mwYavQ;
+Content-Type: application/json
+
+{
+  "id": "ebec5260-3b5e-402f-9cac-433eb33cb7ff",
+  "title": "Обновил заголовок",
+  "description": "Обновил описание таски 1"
+}
+
+###
+DELETE http://localhost:8080/api/v1/task/4e9318a7-6c6b-445e-99d2-d96a8e59b892
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJ4eEB4eC5ydSIsInVzZXJfaWQiOiI0MDQ0ZWFlYS1hY2QxLTQ4ZWMtOTRlZC1hMmI2MTIyZDVjN2UiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAyNjcxMTAyLCJpYXQiOjE3MDI2NjkzMDJ9.bfua2ewThDS0WAPDeD8gcD6mJl7HN6xUhFwN4Wrhs0tMDGvcykga-GesoKqofe0JgDlAbT06h0zoa-8kaNZW_Wog2_obKSnqxGVYvj_Zu-hoHixdvDD2WdTb7cHBof3Sn-pLT37fwElPtDq-EEYZ3DY-hMHWw_lRRSkJO6UB5c4psM_yrpNG40Px1bfTONQRLN00M6d45I_0lueVN66bLoD7E1FPnkD7oRUsIUL0bmvcGsFRQsHsqLL89pREdYrbNLEOtRPEWOZCc3LYYWIaA_u3X_enLkE1nE7QO-RoMhLfkxJnlIMis-E19Uzc7GnFYTCTQRRm-5818LgNkr0ayA;
+
+###
+GET http://localhost:8080/api/v1/task/author?page=0&sort=title,desc
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJxcUBxcS5ydSIsInVzZXJfaWQiOiI1MDAwNzMxNy1iZjNmLTQwMTktYTUzMy1hNDE3ZGM4ZGFkYTkiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAyNjc1MDIwLCJpYXQiOjE3MDI2NzMyMjB9.W5N8ey6TapsbO_TLfU5l0g4jKcD4DCOgEbQlvYNWWMhAEYVkfrcZ9iQXBwD_UapABIJxydlEJNM47OFKF_9ajvTpVkjSAZiPmqIC4VhJdOpcfAUcl01M1zbTfAh5dBq7PtGo6MPc0OH5wj0j3M3V1ZOSRxc09SaknCmM8oneEvEv2leKRzJjwL3wTgIE9N6CJpc2ZequMVtJuHJsI7DLlw2OH3e0BIZFOrAmBFp1m3wWY5aBt5zKam7QnfyiKeiaEfhde6849MmBK9JfcastAhs4WWGqoYNh0ssYWbZgTwo7hLd8Ec30wZvqef6nU7f4Ad24Z2BUH3GwEc__gYazBA;
+
+###
+GET http://localhost:8080/api/v1/task/filter/me?page=0&sort=title,desc
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJxcUBxcS5ydSIsInVzZXJfaWQiOiI1MDAwNzMxNy1iZjNmLTQwMTktYTUzMy1hNDE3ZGM4ZGFkYTkiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAyNjc1NTM3LCJpYXQiOjE3MDI2NzM3Mzd9.plaFmgozhs4AseXfum_by0Sie7OhZoX4geAzdFGh2fu_FzFzgRhpaQm43JfKuFFX4dUxJ5CiERsJgWXdC--PmA0-X5cPUtgiGlXFNq5ZdBmu9WVfo5zTSL5E7dS5b-i0L8fTI_hnWZfMZOGTAr7VLvt0E-MQqaG1cGcoK2x-33ODKFuQLpbcPlJ_s4Wfjc2gBT_dfoD6dcMjOC8n1xrYvlbiS4gJUK-wdrKTTDztl0IRkFDrCAnmgKpI-ephPkG-Ayq2Y_Nu_7J2L9s6ibEWgYCwynlq-ixYBRFQS6qkuTydn8dcH8nobVM__iYMobQxYNcHnncm7_tgq7haktYcSQ;
+Content-Type: application/json
+
+{
+  "executorId": "4044eaea-acd1-48ec-94ed-a2b6122d5c7e"
+}
+
+###
+GET http://localhost:8080/api/v1/task/filter?page=0&sort=title,desc
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJxcUBxcS5ydSIsInVzZXJfaWQiOiI1MDAwNzMxNy1iZjNmLTQwMTktYTUzMy1hNDE3ZGM4ZGFkYTkiLCJyb2xlcyI6W10sImlzcyI6Im15QXBwIiwiZXhwIjoxNzAyNjc1NTM3LCJpYXQiOjE3MDI2NzM3Mzd9.plaFmgozhs4AseXfum_by0Sie7OhZoX4geAzdFGh2fu_FzFzgRhpaQm43JfKuFFX4dUxJ5CiERsJgWXdC--PmA0-X5cPUtgiGlXFNq5ZdBmu9WVfo5zTSL5E7dS5b-i0L8fTI_hnWZfMZOGTAr7VLvt0E-MQqaG1cGcoK2x-33ODKFuQLpbcPlJ_s4Wfjc2gBT_dfoD6dcMjOC8n1xrYvlbiS4gJUK-wdrKTTDztl0IRkFDrCAnmgKpI-ephPkG-Ayq2Y_Nu_7J2L9s6ibEWgYCwynlq-ixYBRFQS6qkuTydn8dcH8nobVM__iYMobQxYNcHnncm7_tgq7haktYcSQ;
+Content-Type: application/json
+
+{
+  "executorId": "4044eaea-acd1-48ec-94ed-a2b6122d5c7e",
+  "priority": "LOW"
+}
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+
+{
+    "birthDate": "1978-01-01T11:11:11Z",
+    "fullName": "Борис Иванович Серров",
+    "login": "three",
+    "password": "passw",
+    "phone": "89998881155",
+    "email": "zzp@zzp.ru",
+    "balance": 1171.1
+
+}
+
+<> 2024-03-04T030813.200.txt
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+
+{
+  "birthDate": "1947-01-01T11:11:11Z",
+  "fullName": "Борис Ивановичjjjx Иванов",
+  "login": "htwo272",
+  "password": "passw",
+  "phone": "89968417758",
+  "email": "zzz4zfj@zzzz.ru",
+  "balance": 11141.5
+
+}
+
+<> 2024-03-04T033946.200.txt
+<> 2024-03-04T033513.200.txt
+<> 2024-03-04T032436.200.txt
+
+###
+POST http://localhost:8080/api/v1/auth/login
+Content-Type: application/json
+
+{
+
+  "login": "two2",
+  "password": "passw"
+
+}
+
+<> 2024-03-04T035352.200.json
+<> 2024-03-04T035236.200.json
+<> 2024-03-04T034957.200.json
+<> 2024-03-04T034809.200.json
+<> 2024-03-04T033951.200.json
+<> 2024-03-04T033453.200.json
+<> 2024-03-04T033314.200.json
+<> 2024-03-04T033027.200.json
+<> 2024-03-04T031418.200.json
+<> 2024-03-03T200226.200.json
+<> 2024-03-03T154743.200.json
+<> 2024-03-03T124521.200.json
+<> 2024-03-03T120318.200.json
+<> 2024-03-03T011056.200.json
+
+###
+POST http://localhost:8080/api/v1/user/phone
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJ0cmFuc2FjdGlvbnMiLCJzdWIiOiJ0d28yIiwiZXhwIjoxNzA5NTQxMjkzLCJ1c2VyX2lkIjoiNDhkYWY4MzctYmY4OS00NjBkLWFhNzMtNWQxYTZlZGU2YzgwIiwiaWF0IjoxNzA5NTEyNDkzfQ.osjIGrHmgVwwq-HOVq52xdSqDRcPuMOPqwbhfuEUsN-S3bMqRd1RfC9d0fQlgt1mckdsthiApj42K0K4D1KECk-VpLyQSvlH2Oj1zjO8Rgs2Q6JS8UlA9CE3II39Nuh3PG81blJV9Uq_u6E53kaWbWeXa6XAGKX4iT-kg98y1AJNe0ZmiUxWdnwvuCDFI73qvTRTqvDHplufRSR1qLiF7MKJf0xjh25T3iPnh7jy9Zv-kfCjErjbEJif6YFxNPCjsBev0JeevQ233etgPecEj9eNHFg4XQkY7-fnzcLTihb0ECc9pY_W5cmwL_Bs80jgQbFs9XJqTWXQ3oUjRCGCYQ;
+Content-Type: application/json
+
+{
+  "phone": "89102223344"
+}
+
+###
+
+POST http://localhost:8080/api/v1/user/email
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJ0cmFuc2FjdGlvbnMiLCJzdWIiOiJ0d28yIiwiZXhwIjoxNzA5NDg1Mzk4LCJ1c2VyX2lkIjoiNDhkYWY4MzctYmY4OS00NjBkLWFhNzMtNWQxYTZlZGU2YzgwIiwiaWF0IjoxNzA5NDU2NTk4fQ.b87sEbsjUBFgaivlsycdlzZe9KyqaPwxf38IpqsNLc2txxF_YYwg_wOB30f3U2t4qTzMNX-3akDJd_A8h2Hw5Gq6sPZ5k49x5o1bZdxbAGk8AN0_75A_1iNn6nbWICVpOy9qf6OOnSbqrBQVFyKWAN_mgNZ9bZrp5s6zQCswrJ4eOKJL42Ur-1nsEl5aSWgUtbIeKTnjFV3stHyHHBUjNjY1KKbAmPvKSrrUPbeABHhZFbAX4C1kWHPfkz-urn83EBOaxC26nBSsrtMfs8x-6sctOvmoYEhOu0jF1Fb9A19LBTt_0Ga__HpCha8np4YWtrunsaDRaG1yEo-bW8SG_g;
+Content-Type: application/json
+
+{
+  "email": "zz@zz.ru"
+}
+
+
+<> 2024-03-03T120447.200.txt
+<> 2024-03-03T120431.404.json
+###
+PUT http://localhost:8080/api/v1/user/phone
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJ0cmFuc2FjdGlvbnMiLCJzdWIiOiJ0d28yIiwiZXhwIjoxNzA5NDg3OTIxLCJ1c2VyX2lkIjoiNDhkYWY4MzctYmY4OS00NjBkLWFhNzMtNWQxYTZlZGU2YzgwIiwiaWF0IjoxNzA5NDU5MTIxfQ.aOQSucwJilZ_lbEWXeHslE-WKPUQj1FiPNvreO8dokv7aouRWWcEGj_K8VwDb84G6gkP-QhlYEVkmUWhVsA-QfFFoU8ECv2cctV0SV94Tr79Ch3XCapyr931JVZfYY5M8ridUNHXX3hTe5lCi2BT8p9ngEsBW0GbhY74qhLa00E6-s73m14Wr4wh9-7rU13d0XDSy9qD7nQ6S-BIUtGi8RrIaA8agOAs6dI_0t4HFD943h2i5Nxr_HxrDJ46dvugrYqQ0pNK6upkChlMXzQgpPWrj_z54_5D1YgIyRPZhII84EHbGuJiLJPiRZ12pusw30n7Im-lwU-Y_2uCOwjIsA;
+Content-Type: application/json
+
+{
+  "phone": "89102223377",
+  "newPhone": "89102223399"
+}
+
+<> 2024-03-03T125238.200.txt
+<> 2024-03-03T124628.200.txt
+###
+PUT http://localhost:8080/api/v1/user/email
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJ0cmFuc2FjdGlvbnMiLCJzdWIiOiJ0d28yIiwiZXhwIjoxNzA5NDg3OTIxLCJ1c2VyX2lkIjoiNDhkYWY4MzctYmY4OS00NjBkLWFhNzMtNWQxYTZlZGU2YzgwIiwiaWF0IjoxNzA5NDU5MTIxfQ.aOQSucwJilZ_lbEWXeHslE-WKPUQj1FiPNvreO8dokv7aouRWWcEGj_K8VwDb84G6gkP-QhlYEVkmUWhVsA-QfFFoU8ECv2cctV0SV94Tr79Ch3XCapyr931JVZfYY5M8ridUNHXX3hTe5lCi2BT8p9ngEsBW0GbhY74qhLa00E6-s73m14Wr4wh9-7rU13d0XDSy9qD7nQ6S-BIUtGi8RrIaA8agOAs6dI_0t4HFD943h2i5Nxr_HxrDJ46dvugrYqQ0pNK6upkChlMXzQgpPWrj_z54_5D1YgIyRPZhII84EHbGuJiLJPiRZ12pusw30n7Im-lwU-Y_2uCOwjIsA;
+Content-Type: application/json
+
+{
+  "email": "zzzz@zzzz.ru",
+  "newEmail": "qq@qq.ru"
+}
+
+<> 2024-03-03T131807.200.txt
+<> 2024-03-03T131742.200.txt
+<> 2024-03-03T131614.200.txt
+<> 2024-03-03T131446.200.txt
+
+###
+DELETE http://localhost:8080/api/v1/user/email
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJ0cmFuc2FjdGlvbnMiLCJzdWIiOiJ0d28yIiwiZXhwIjoxNzA5NDk4ODYzLCJ1c2VyX2lkIjoiNDhkYWY4MzctYmY4OS00NjBkLWFhNzMtNWQxYTZlZGU2YzgwIiwiaWF0IjoxNzA5NDcwMDYzfQ.nHu0v3kgqHK9wmDbXj6kPs0ghLDeMsRRMoOPKmCQ-MRw748mNZFKUZK0brpALLorIkGfD36IRs6mjjsGh-Rutcz_Ac2JTPsQ--xrs4Xwe3I2lVzGnW-qQes7LHnXTg7__YbLdffUUz1hmL2cqJqK6Nxw7IihRPGnWAI6_C4dkma5hERyHg2bF5-vIk5kVGjmhZrjpi_HUSGmuoloYYTPKURRZbL3pHjd0XNEaXUxdWe1ZSDDn7L07WwYHfPqjthTMBnxTqMonYtOaulb7nsp3w5P0nd9cphoUvhhcHmh17X59Q2huyDrFDVRqq3COmDgUHZwmargYF71XHDpwplR9A;
+Content-Type: application/json
+
+{
+  "email": "qq@qq.ru"
+}
+
+<> 2024-03-03T161029.200.txt
+<> 2024-03-03T154829.400.json
+<> 2024-03-03T134839.400.json
+
+
+###
+DELETE http://localhost:8080/api/v1/user/phone
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJ0cmFuc2FjdGlvbnMiLCJzdWIiOiJ0d28yIiwiZXhwIjoxNzA5NDk4ODYzLCJ1c2VyX2lkIjoiNDhkYWY4MzctYmY4OS00NjBkLWFhNzMtNWQxYTZlZGU2YzgwIiwiaWF0IjoxNzA5NDcwMDYzfQ.nHu0v3kgqHK9wmDbXj6kPs0ghLDeMsRRMoOPKmCQ-MRw748mNZFKUZK0brpALLorIkGfD36IRs6mjjsGh-Rutcz_Ac2JTPsQ--xrs4Xwe3I2lVzGnW-qQes7LHnXTg7__YbLdffUUz1hmL2cqJqK6Nxw7IihRPGnWAI6_C4dkma5hERyHg2bF5-vIk5kVGjmhZrjpi_HUSGmuoloYYTPKURRZbL3pHjd0XNEaXUxdWe1ZSDDn7L07WwYHfPqjthTMBnxTqMonYtOaulb7nsp3w5P0nd9cphoUvhhcHmh17X59Q2huyDrFDVRqq3COmDgUHZwmargYF71XHDpwplR9A;
+Content-Type: application/json
+
+{
+  "phone": "89102223344"
+}
+
+<> 2024-03-03T155419.200.txt
+<> 2024-03-03T155352.200.txt
+
+
+
+###
+POST http://localhost:8080/api/v1/user/search/fullname?page=0&sort=id,desc
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJ0cmFuc2FjdGlvbnMiLCJzdWIiOiJ0d28yIiwiZXhwIjoxNzA5NTE0MTQ2LCJ1c2VyX2lkIjoiNDhkYWY4MzctYmY4OS00NjBkLWFhNzMtNWQxYTZlZGU2YzgwIiwiaWF0IjoxNzA5NDg1MzQ2fQ.lX21nMNIwiIJuVMzmbhi357I48GHBV95py-N6_FgUTz-iH6_SheoSln7Af-6Plna4yj-2abTqoPZBYfEWdS0DmnXAMarY43kv8FtglIDA_DlTnCr95RKuoeGAgBPL0aqqWXcXI5zLIFnOn8F7vd2Qwba6tF1WwlzAeBOkhi-3zzCw7qapFF9o1bmTUIW_miZ4Cql3KsJkZtX5C6vxiyTIhW4b3xvRXVWlHxKIr0T6UejjWTSZeA3ymlOpvyDBVSCz8hZa08kH9RX2JlCJT-SSGWBhZlT7w8h-yBn85KArjjGzB3hsPeRDlX3LTh541NwCIAJOMGip-Xi4G_OvaCs8w;
+Content-Type: application/json
+
+{
+  "fullname": "Борис Иванович Петров"
+}
+
+<> 2024-03-04T035222.200.json
+<> 2024-03-03T204601.200.json
+<> 2024-03-03T204540.200.json
+<> 2024-03-03T204022.200.json
+<> 2024-03-03T203239.200.json
+<> 2024-03-03T203159.200.json
+<> 2024-03-03T203026.200.json
+<> 2024-03-03T201224.200.json
+<> 2024-03-03T200645.500.json
+<> 2024-03-03T200443.500.json
+<> 2024-03-03T200350.500.json
+<> 2024-03-03T200247.500.json
+<> 2024-03-03T200141.500.json
+<> 2024-03-03T195641.500.json
+<> 2024-03-03T193824.500.json
+<> 2024-03-03T193506.500.json
+
+###
+POST http://localhost:8080/api/v1/user/search/fullname?page=0&sort=id,desc
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJ0cmFuc2FjdGlvbnMiLCJzdWIiOiJ0d28yIiwiZXhwIjoxNzA5NTE0MTQ2LCJ1c2VyX2lkIjoiNDhkYWY4MzctYmY4OS00NjBkLWFhNzMtNWQxYTZlZGU2YzgwIiwiaWF0IjoxNzA5NDg1MzQ2fQ.lX21nMNIwiIJuVMzmbhi357I48GHBV95py-N6_FgUTz-iH6_SheoSln7Af-6Plna4yj-2abTqoPZBYfEWdS0DmnXAMarY43kv8FtglIDA_DlTnCr95RKuoeGAgBPL0aqqWXcXI5zLIFnOn8F7vd2Qwba6tF1WwlzAeBOkhi-3zzCw7qapFF9o1bmTUIW_miZ4Cql3KsJkZtX5C6vxiyTIhW4b3xvRXVWlHxKIr0T6UejjWTSZeA3ymlOpvyDBVSCz8hZa08kH9RX2JlCJT-SSGWBhZlT7w8h-yBn85KArjjGzB3hsPeRDlX3LTh541NwCIAJOMGip-Xi4G_OvaCs8w;
+Content-Type: application/json
+
+{
+  "fullname": "Борис Иванович Петров"
+}
+
+<> 2024-03-04T033720.200.json
+<> 2024-03-03T204601.200.json
+<> 2024-03-03T204540.200.json
+<> 2024-03-03T204022.200.json
+<> 2024-03-03T203239.200.json
+<> 2024-03-03T203159.200.json
+<> 2024-03-03T203026.200.json
+<> 2024-03-03T201224.200.json
+<> 2024-03-03T200645.500.json
+<> 2024-03-03T200443.500.json
+<> 2024-03-03T200350.500.json
+<> 2024-03-03T200247.500.json
+<> 2024-03-03T200141.500.json
+<> 2024-03-03T195641.500.json
+<> 2024-03-03T193824.500.json
+<> 2024-03-03T193506.500.json
+
+###
+
+POST http://localhost:8080/api/v1/user/search/fullname?page=0&sort=id,desc
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJ0cmFuc2FjdGlvbnMiLCJzdWIiOiJ0d28yIiwiZXhwIjoxNzA5NTE0MTQ2LCJ1c2VyX2lkIjoiNDhkYWY4MzctYmY4OS00NjBkLWFhNzMtNWQxYTZlZGU2YzgwIiwiaWF0IjoxNzA5NDg1MzQ2fQ.lX21nMNIwiIJuVMzmbhi357I48GHBV95py-N6_FgUTz-iH6_SheoSln7Af-6Plna4yj-2abTqoPZBYfEWdS0DmnXAMarY43kv8FtglIDA_DlTnCr95RKuoeGAgBPL0aqqWXcXI5zLIFnOn8F7vd2Qwba6tF1WwlzAeBOkhi-3zzCw7qapFF9o1bmTUIW_miZ4Cql3KsJkZtX5C6vxiyTIhW4b3xvRXVWlHxKIr0T6UejjWTSZeA3ymlOpvyDBVSCz8hZa08kH9RX2JlCJT-SSGWBhZlT7w8h-yBn85KArjjGzB3hsPeRDlX3LTh541NwCIAJOMGip-Xi4G_OvaCs8w;
+Content-Type: application/json
+
+{
+  "fullname": "Борис Иванович Петров"
+}
+
+<> 2024-03-03T204601.200.json
+<> 2024-03-03T204540.200.json
+<> 2024-03-03T204022.200.json
+<> 2024-03-03T203239.200.json
+<> 2024-03-03T203159.200.json
+<> 2024-03-03T203026.200.json
+<> 2024-03-03T201224.200.json
+<> 2024-03-03T200645.500.json
+<> 2024-03-03T200443.500.json
+<> 2024-03-03T200350.500.json
+<> 2024-03-03T200247.500.json
+<> 2024-03-03T200141.500.json
+<> 2024-03-03T195641.500.json
+<> 2024-03-03T193824.500.json
+<> 2024-03-03T193506.500.json
+
+###
+POST http://localhost:8080/api/v1/user/search/birthday?page=0&sort=id,desc
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJ0cmFuc2FjdGlvbnMiLCJzdWIiOiJ0d28yIiwiZXhwIjoxNzA5NTE0MTQ2LCJ1c2VyX2lkIjoiNDhkYWY4MzctYmY4OS00NjBkLWFhNzMtNWQxYTZlZGU2YzgwIiwiaWF0IjoxNzA5NDg1MzQ2fQ.lX21nMNIwiIJuVMzmbhi357I48GHBV95py-N6_FgUTz-iH6_SheoSln7Af-6Plna4yj-2abTqoPZBYfEWdS0DmnXAMarY43kv8FtglIDA_DlTnCr95RKuoeGAgBPL0aqqWXcXI5zLIFnOn8F7vd2Qwba6tF1WwlzAeBOkhi-3zzCw7qapFF9o1bmTUIW_miZ4Cql3KsJkZtX5C6vxiyTIhW4b3xvRXVWlHxKIr0T6UejjWTSZeA3ymlOpvyDBVSCz8hZa08kH9RX2JlCJT-SSGWBhZlT7w8h-yBn85KArjjGzB3hsPeRDlX3LTh541NwCIAJOMGip-Xi4G_OvaCs8w;
+Content-Type: application/json
+
+{
+  "birthDate": "1984-01-01T11:11:11Z"
+}
+
+<> 2024-03-04T035410.200.json
+<> 2024-03-03T222644.200.json
+<> 2024-03-03T212913.200.json
+<> 2024-03-03T212818.200.json
+
+###
+POST http://localhost:8080/api/v1/user/search/phone?page=0&sort=id,desc
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJ0cmFuc2FjdGlvbnMiLCJzdWIiOiJ0d28yIiwiZXhwIjoxNzA5NTE0MTQ2LCJ1c2VyX2lkIjoiNDhkYWY4MzctYmY4OS00NjBkLWFhNzMtNWQxYTZlZGU2YzgwIiwiaWF0IjoxNzA5NDg1MzQ2fQ.lX21nMNIwiIJuVMzmbhi357I48GHBV95py-N6_FgUTz-iH6_SheoSln7Af-6Plna4yj-2abTqoPZBYfEWdS0DmnXAMarY43kv8FtglIDA_DlTnCr95RKuoeGAgBPL0aqqWXcXI5zLIFnOn8F7vd2Qwba6tF1WwlzAeBOkhi-3zzCw7qapFF9o1bmTUIW_miZ4Cql3KsJkZtX5C6vxiyTIhW4b3xvRXVWlHxKIr0T6UejjWTSZeA3ymlOpvyDBVSCz8hZa08kH9RX2JlCJT-SSGWBhZlT7w8h-yBn85KArjjGzB3hsPeRDlX3LTh541NwCIAJOMGip-Xi4G_OvaCs8w;
+Content-Type: application/json
+
+{
+  "phone": "89998887755"
+}
+
+<> 2024-03-04T035014.200.json
+<> 2024-03-03T222844.200.json
+<> 2024-03-03T222644.200.json
+<> 2024-03-03T212913.200.json
+<> 2024-03-03T212818.200.json
+
+###
+POST http://localhost:8080/api/v1/user/search/email?page=0&sort=id,desc
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJ0cmFuc2FjdGlvbnMiLCJzdWIiOiJ0d28yIiwiZXhwIjoxNzA5NTE0MTQ2LCJ1c2VyX2lkIjoiNDhkYWY4MzctYmY4OS00NjBkLWFhNzMtNWQxYTZlZGU2YzgwIiwiaWF0IjoxNzA5NDg1MzQ2fQ.lX21nMNIwiIJuVMzmbhi357I48GHBV95py-N6_FgUTz-iH6_SheoSln7Af-6Plna4yj-2abTqoPZBYfEWdS0DmnXAMarY43kv8FtglIDA_DlTnCr95RKuoeGAgBPL0aqqWXcXI5zLIFnOn8F7vd2Qwba6tF1WwlzAeBOkhi-3zzCw7qapFF9o1bmTUIW_miZ4Cql3KsJkZtX5C6vxiyTIhW4b3xvRXVWlHxKIr0T6UejjWTSZeA3ymlOpvyDBVSCz8hZa08kH9RX2JlCJT-SSGWBhZlT7w8h-yBn85KArjjGzB3hsPeRDlX3LTh541NwCIAJOMGip-Xi4G_OvaCs8w;
+Content-Type: application/json
+
+{
+  "email": "zz@zz.ru"
+}
+
+<> 2024-03-03T223938.200.json
+<> 2024-03-03T223923.200.json
+<> 2024-03-03T223915.500.json
+<> 2024-03-03T223906.200.json
+
+###
+
+POST http://localhost:8080/api/v1/user/pay
+Cookie: jwt=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJ0cmFuc2FjdGlvbnMiLCJzdWIiOiJ0d28yIiwiZXhwIjoxNzA5NTE0MTQ2LCJ1c2VyX2lkIjoiNDhkYWY4MzctYmY4OS00NjBkLWFhNzMtNWQxYTZlZGU2YzgwIiwiaWF0IjoxNzA5NDg1MzQ2fQ.lX21nMNIwiIJuVMzmbhi357I48GHBV95py-N6_FgUTz-iH6_SheoSln7Af-6Plna4yj-2abTqoPZBYfEWdS0DmnXAMarY43kv8FtglIDA_DlTnCr95RKuoeGAgBPL0aqqWXcXI5zLIFnOn8F7vd2Qwba6tF1WwlzAeBOkhi-3zzCw7qapFF9o1bmTUIW_miZ4Cql3KsJkZtX5C6vxiyTIhW4b3xvRXVWlHxKIr0T6UejjWTSZeA3ymlOpvyDBVSCz8hZa08kH9RX2JlCJT-SSGWBhZlT7w8h-yBn85KArjjGzB3hsPeRDlX3LTh541NwCIAJOMGip-Xi4G_OvaCs8w;
+Content-Type: application/json
+
+{
+  "login": "one",
+  "sum": 100
+}
+
+<> 2024-03-04T035006.200.json
+<> 2024-03-03T234833.200.json
+<> 2024-03-03T234732.200.json
+<> 2024-03-03T234717.200.json
+<> 2024-03-03T234652.200.json
+<> 2024-03-03T234612.200.json
+<> 2024-03-03T234503.500.json
+
+###
+POST http://localhost:8081/api/v1/user

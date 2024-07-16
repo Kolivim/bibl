@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 12 15:16:38 MSK 2023
+bucket4j-core-6.2.0-sources.jar>central=
+bucket4j-core-6.2.0.jar>central=
+bucket4j-core-6.2.0.pom>central=

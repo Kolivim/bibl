@@ -1,0 +1,29 @@
+
+
+GET /api/ws HTTP/1.1
+Host: localhost:8090
+#Upgrade: websocket
+#Connection: Upgrade
+#Sec-WebSocket-Key: Uc9l9TMkWGbHFD2qnFHltg==
+#Sec-WebSocket-Protocol: v10.stomp, v11.stomp
+#Sec-WebSocket-Version: 13
+Origin: http://localhost:8080
+
+<> 2023-09-08T192438.404.json
+<> 2023-09-08T191605.404.json
+<> 2023-09-08T191545.404.json
+<> 2023-09-08T190922.404.json
+<> 2023-09-08T190914.404.json
+<> 2023-09-08T190837.404.json
+<> 2023-09-08T083828.404.json
+<> 2023-09-08T083803.404.json
+
+
+###
+
+GET /api/ws HTTP/1.1
+Host: localhost:8090
+Upgrade: websocket
+Connection: Upgrade
+
+<> 2023-09-08T083844.404.json

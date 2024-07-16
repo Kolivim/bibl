@@ -1,0 +1,133 @@
+### Создание нового юзера с отделом и должностью, совместно с его аккаунтом:
+POST http://localhost:8081/api/v1/user/aaaa1111-2222-3333-aaaa-aaaa1aaaaaaa/bbb1111-2222-3333-bbbb-bbbb1bbbbbbb
+Content-Type: application/json
+
+{
+  "firstName": "Борис",
+  "middleName": "Иванович",
+  "lastName": "Ивановскиw",
+  "login": "four",
+  "password": "passw"
+}
+
+<> 2024-07-14T013852.200.json
+<> 2024-07-14T012636.200.json
+<> 2024-07-14T002430.200.json
+<> 2024-07-14T002417.500.json
+<> 2024-07-14T002337.200.json
+<> 2024-07-14T001858.500.json
+<> 2024-07-14T001835.200.json
+<> 2024-07-14T001654.200.json
+<> 2024-07-14T000458.200.json
+<> 2024-07-14T000431.500.json
+<> 2024-07-14T000407.200.json
+<> 2024-07-13T234610.200.json
+<> 2024-07-13T234307.200.json
+<> 2024-07-13T233557.200.json
+### Создание нового юзера, совместно с его аккаунтом:
+POST http://localhost:8081/api/v1/user
+Content-Type: application/json
+
+{
+  "firstName": "Борис",
+  "middleName": "Иванович",
+  "lastName": "Ивановскиw",
+  "login": "four",
+  "password": "passw"
+}
+
+<> 2024-07-14T013932.500.json
+<> 2024-07-14T002430.200.json
+<> 2024-07-14T002417.500.json
+<> 2024-07-14T002337.200.json
+<> 2024-07-14T001858.500.json
+<> 2024-07-14T001835.200.json
+<> 2024-07-14T001654.200.json
+<> 2024-07-14T000458.200.json
+<> 2024-07-14T000431.500.json
+<> 2024-07-14T000407.200.json
+<> 2024-07-13T234610.200.json
+<> 2024-07-13T234307.200.json
+<> 2024-07-13T233557.200.json
+###
+POST http://localhost:8081/api/v1/account
+Content-Type: application/json
+
+{
+  "firstName": "Борис",
+  "middleName": "Иванович",
+  "lastName": "Ивановски",
+  "login": "four",
+  "password": "passw"
+}
+
+<> 2024-07-08T230359.200.json
+<> 2024-07-08T230353.404.json
+<> 2024-07-08T230344.404.json
+<> 2024-07-08T230231.200.json
+<> 2024-07-08T230203.404.json
+<> 2024-07-08T230125.404.json
+
+###
+POST http://localhost:8081/api/v1/user
+Content-Type: application/json
+
+{
+  "firstName": "Борис",
+  "middleName": "Иванович",
+  "lastName": "Ивановски",
+  "login": "three",
+  "password": "passw"
+}
+
+<> 2024-07-13T233245.200.json
+<> 2024-07-08T231530.200.json
+<> 2024-07-08T231037.500.json
+<> 2024-07-08T225832.200.json
+<> 2024-07-08T224424.200.json
+<> 2024-07-08T224021.500.json
+<> 2024-07-07T230222.200.json
+
+###
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+
+{
+  "birthDate": "1947-01-01T11:11:11Z",
+  "fullName": "Борис Ивановичjx Иванов",
+  "login": "htwo22",
+  "password": "passw",
+  "phone": "89968414758",
+  "email": "zzz4zfj@zzz.ru",
+  "balance": 11141.5
+
+}
+
+<> 2024-07-07T201057.200.txt
+<> 2024-07-07T154918.200.txt
+
+
+
+###
+POST http://localhost:99/api/item?id=99
+Accept: application/json
+
+###
+
+POST http://localhost:99/api/item?id=99
+Accept: application/json
+
+###
+
+POST http://localhost:8099/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email": "kolivim@yandex.ru",
+  "password": "88888888"
+}
+
+###
+
+GET http://localhost:8099/api/v1/account/me
+Accept: application/json

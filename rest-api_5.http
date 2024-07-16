@@ -1,0 +1,17 @@
+GET http://localhost:80/api/item?id=99
+Accept: application/json
+
+###
+GET http://localhost:80/api/item?id=99
+Accept: application/json
+
+###
+
+GET HTTP/1.1
+Host: http://localhost:8090/api/ws
+
+<> 2023-09-08T194200.400.html
+<> 2023-09-08T190818.400.html
+<> 2023-09-08T190715.400.html
+<> 2023-09-08T190712.400.html
+<> 2023-09-08T190628.400.html
